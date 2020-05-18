@@ -1,0 +1,8 @@
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Proyecto_Arkanoid.exe.config
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Proyecto_Arkanoid.exe
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Proyecto_Arkanoid.pdb
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csprojAssemblyReference.cache
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Properties.Resources.resources
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.exe
+C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.pdb

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Usuario\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Usuario\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto Arkanoid.-1910850615.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Usuario\Documents\Workspaces POO\Proyecto-Arkanoid-Tamagochis 2.0\Tamagochis2.0_Arkanoid\Proyecto Arkanoid" t="IncludeFlat">
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Proyecto Arkanoid" t="IncludeRecursive">
+        <e p="App.config" t="Include" />
+        <e p="Ball.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Brick.cs" t="Include" />
+        <e p="Form1.cs" t="Include" />
+        <e p="Form1.Designer.cs" t="Include" />
+        <e p="Form1.resx" t="Include" />
+        <e p="Game.cs" t="Include" />
+        <e p="Game.Designer.cs" t="Include" />
+        <e p="Login.cs" t="Include" />
+        <e p="Login.Designer.cs" t="Include" />
+        <e p="Login.resx" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Paddle.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+          <e p="Settings.Designer.cs" t="Include" />
+          <e p="Settings.settings" t="Include" />
+        </e>
+        <e p="Proyecto Arkanoid.csproj" t="IncludeRecursive" />
+        <e p="Score.cs" t="Include" />
+        <e p="Score.Designer.cs" t="Include" />
+        <e p="Sprite.cs" t="Include" />
+      </e>
+      <e p="Proyecto Arkanoid.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
