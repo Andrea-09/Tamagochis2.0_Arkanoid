@@ -10,7 +10,7 @@ namespace Proyecto_Arkanoid
         {
             InitializeComponent();
             name = "";
-            
+
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
