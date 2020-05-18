@@ -28,13 +28,18 @@ namespace Proyecto_Arkanoid
         { 
             //user.Controls.Add(user);
             //Controls.Add(user);
-            user.Hide();
-            user.Controls.Add(user);
+            login1.Show();
+            login1.BringToFront();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            login1.Hide();
         }
     }
 }

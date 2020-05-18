@@ -5,7 +5,7 @@ namespace Proyecto_Arkanoid
 {
     public partial class Login : UserControl
     {
-        private string name;
+        private string name = "";
         public Login()
         {
             InitializeComponent();
