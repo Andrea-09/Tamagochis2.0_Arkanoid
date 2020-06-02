@@ -21,16 +21,6 @@ C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Score.resources
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Proyecto_Arkanoid.exe.config
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Proyecto_Arkanoid.pdb
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csprojAssemblyReference.cache
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Form1.resources
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Game.resources
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Login.resources
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Properties.Resources.resources
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Score.resources
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.GenerateResource.cache
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.CopyComplete
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.exe
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.pdb
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Npgsql.dll
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Buffers.dll
@@ -52,5 +42,14 @@ C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Text.Json.xml
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.ValueTuple.xml
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.exe.config
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csprojAssemblyReference.cache
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Form1.resources
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Game.resources
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Login.resources
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Playing.resources
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Properties.Resources.resources
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Score.resources
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.GenerateResource.cache
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.CopyComplete
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.exe
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.pdb
