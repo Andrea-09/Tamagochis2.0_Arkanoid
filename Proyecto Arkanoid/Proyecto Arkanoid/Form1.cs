@@ -21,7 +21,7 @@ namespace Proyecto_Arkanoid
         public Form1()
         {
             InitializeComponent();
-            DoubleBuffered = true;
+            //DoubleBuffered = true;
         }
 
         private void button1_Click(object sender, EventArgs e)

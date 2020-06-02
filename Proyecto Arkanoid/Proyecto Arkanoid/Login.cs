@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
 
 namespace Proyecto_Arkanoid
@@ -9,13 +10,11 @@ namespace Proyecto_Arkanoid
         public Login()
         {
             InitializeComponent();
-            name = "";
-
         }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            textBox1.Text = name;
+            name = textBox1.Text;
+            MessageBox.Show(name);
         }
     }
 }
