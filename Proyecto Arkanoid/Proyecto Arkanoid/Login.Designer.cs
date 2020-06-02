@@ -48,7 +48,7 @@ namespace Proyecto_Arkanoid
             this.button1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(243, 386);
+            this.button1.Location = new System.Drawing.Point(208, 327);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(139, 42);
             this.button1.TabIndex = 2;
@@ -77,7 +77,11 @@ namespace Proyecto_Arkanoid
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 36.43564F));
             this.tableLayoutPanel1.RowStyles.Add(
                 new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 23.9604F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(626, 505);
+            this.tableLayoutPanel1.RowStyles.Add(
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.RowStyles.Add(
+                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(556, 428);
             this.tableLayoutPanel1.TabIndex = 3;
             // 
             // textBox1
@@ -89,7 +93,7 @@ namespace Proyecto_Arkanoid
             this.textBox1.Font = new System.Drawing.Font("Showcard Gothic", 27.75F, System.Drawing.FontStyle.Regular,
                 System.Drawing.GraphicsUnit.Point, ((byte) (0)));
             this.textBox1.ForeColor = System.Drawing.Color.White;
-            this.textBox1.Location = new System.Drawing.Point(117, 268);
+            this.textBox1.Location = new System.Drawing.Point(82, 223);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(391, 46);
             this.textBox1.TabIndex = 3;

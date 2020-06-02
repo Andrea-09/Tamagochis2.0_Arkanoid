@@ -13,8 +13,13 @@ namespace Proyecto_Arkanoid
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            Playing play = new Playing();
             name = textBox1.Text;
-            MessageBox.Show(name);
+            string sql = $"INSERT INTO PLAYER(nickname) VALUES('{name}')";
+            ConnectionDB.ExecuteNonQuery(sql);
+            textBox1.Text = "";
+            play.Show();
+            this.Hide();
         }
     }
 }

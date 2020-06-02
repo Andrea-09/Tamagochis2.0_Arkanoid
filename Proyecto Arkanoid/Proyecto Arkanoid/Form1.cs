@@ -14,7 +14,7 @@ namespace Proyecto_Arkanoid
 {
     public partial class Form1 : Form
     {
-        private UserControl user = new Login();
+        //private UserControl user = new Login();
         //private Login user = new Login();
         
         
