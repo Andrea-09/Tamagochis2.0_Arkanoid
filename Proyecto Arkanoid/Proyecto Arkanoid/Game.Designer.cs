@@ -81,9 +81,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox49 = new System.Windows.Forms.PictureBox();
             this.pictureBox50 = new System.Windows.Forms.PictureBox();
             this.pictureBox51 = new System.Windows.Forms.PictureBox();
-            this.pictureBox52 = new System.Windows.Forms.PictureBox();
             this.pictureBox53 = new System.Windows.Forms.PictureBox();
-            this.pictureBox54 = new System.Windows.Forms.PictureBox();
             this.pictureBox55 = new System.Windows.Forms.PictureBox();
             this.pictureBox56 = new System.Windows.Forms.PictureBox();
             this.pictureBox57 = new System.Windows.Forms.PictureBox();
@@ -99,10 +97,11 @@ namespace Proyecto_Arkanoid
             this.pictureBox67 = new System.Windows.Forms.PictureBox();
             this.pictureBox68 = new System.Windows.Forms.PictureBox();
             this.pictureBox69 = new System.Windows.Forms.PictureBox();
-            this.pictureBox70 = new System.Windows.Forms.PictureBox();
-            this.pictureBox71 = new System.Windows.Forms.PictureBox();
             this.pictureBox72 = new System.Windows.Forms.PictureBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox73 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox4)).BeginInit();
@@ -151,9 +150,7 @@ namespace Proyecto_Arkanoid
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox49)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox50)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox51)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox52)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox53)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox54)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox55)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox56)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox57)).BeginInit();
@@ -169,10 +166,11 @@ namespace Proyecto_Arkanoid
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox67)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox68)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox69)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox70)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox71)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox72)).BeginInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox73)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -192,7 +190,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox3.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox3.BackgroundImage")));
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(13, 242);
+            this.pictureBox3.Location = new System.Drawing.Point(108, 83);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(89, 28);
             this.pictureBox3.TabIndex = 2;
@@ -368,7 +366,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox20.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox20.BackgroundImage")));
             this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox20.Location = new System.Drawing.Point(108, 242);
+            this.pictureBox20.Location = new System.Drawing.Point(13, 83);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(89, 28);
             this.pictureBox20.TabIndex = 25;
@@ -379,7 +377,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox22.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox22.BackgroundImage")));
             this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox22.Location = new System.Drawing.Point(509, 242);
+            this.pictureBox22.Location = new System.Drawing.Point(411, 83);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(89, 28);
             this.pictureBox22.TabIndex = 27;
@@ -412,7 +410,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox27.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox27.BackgroundImage")));
             this.pictureBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox27.Location = new System.Drawing.Point(604, 242);
+            this.pictureBox27.Location = new System.Drawing.Point(506, 83);
             this.pictureBox27.Name = "pictureBox27";
             this.pictureBox27.Size = new System.Drawing.Size(89, 28);
             this.pictureBox27.TabIndex = 34;
@@ -423,7 +421,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox25.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox25.BackgroundImage")));
             this.pictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox25.Location = new System.Drawing.Point(307, 83);
+            this.pictureBox25.Location = new System.Drawing.Point(411, 147);
             this.pictureBox25.Name = "pictureBox25";
             this.pictureBox25.Size = new System.Drawing.Size(89, 28);
             this.pictureBox25.TabIndex = 35;
@@ -445,7 +443,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox28.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox28.BackgroundImage")));
             this.pictureBox28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox28.Location = new System.Drawing.Point(601, 117);
+            this.pictureBox28.Location = new System.Drawing.Point(604, 117);
             this.pictureBox28.Name = "pictureBox28";
             this.pictureBox28.Size = new System.Drawing.Size(89, 24);
             this.pictureBox28.TabIndex = 37;
@@ -533,7 +531,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox36.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox36.BackgroundImage")));
             this.pictureBox36.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox36.Location = new System.Drawing.Point(13, 178);
+            this.pictureBox36.Location = new System.Drawing.Point(13, 242);
             this.pictureBox36.Name = "pictureBox36";
             this.pictureBox36.Size = new System.Drawing.Size(89, 28);
             this.pictureBox36.TabIndex = 45;
@@ -566,7 +564,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox39.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox39.BackgroundImage")));
             this.pictureBox39.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox39.Location = new System.Drawing.Point(13, 83);
+            this.pictureBox39.Location = new System.Drawing.Point(13, 178);
             this.pictureBox39.Name = "pictureBox39";
             this.pictureBox39.Size = new System.Drawing.Size(89, 28);
             this.pictureBox39.TabIndex = 48;
@@ -577,7 +575,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox40.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox40.BackgroundImage")));
             this.pictureBox40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox40.Location = new System.Drawing.Point(203, 83);
+            this.pictureBox40.Location = new System.Drawing.Point(203, 144);
             this.pictureBox40.Name = "pictureBox40";
             this.pictureBox40.Size = new System.Drawing.Size(89, 28);
             this.pictureBox40.TabIndex = 49;
@@ -588,7 +586,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox41.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox41.BackgroundImage")));
             this.pictureBox41.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox41.Location = new System.Drawing.Point(411, 83);
+            this.pictureBox41.Location = new System.Drawing.Point(604, 178);
             this.pictureBox41.Name = "pictureBox41";
             this.pictureBox41.Size = new System.Drawing.Size(89, 28);
             this.pictureBox41.TabIndex = 50;
@@ -599,7 +597,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox42.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox42.BackgroundImage")));
             this.pictureBox42.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox42.Location = new System.Drawing.Point(506, 83);
+            this.pictureBox42.Location = new System.Drawing.Point(509, 178);
             this.pictureBox42.Name = "pictureBox42";
             this.pictureBox42.Size = new System.Drawing.Size(89, 28);
             this.pictureBox42.TabIndex = 51;
@@ -610,7 +608,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox43.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox43.BackgroundImage")));
             this.pictureBox43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox43.Location = new System.Drawing.Point(309, 283);
+            this.pictureBox43.Location = new System.Drawing.Point(411, 178);
             this.pictureBox43.Name = "pictureBox43";
             this.pictureBox43.Size = new System.Drawing.Size(89, 28);
             this.pictureBox43.TabIndex = 52;
@@ -621,7 +619,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox44.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox44.BackgroundImage")));
             this.pictureBox44.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox44.Location = new System.Drawing.Point(604, 83);
+            this.pictureBox44.Location = new System.Drawing.Point(203, 174);
             this.pictureBox44.Name = "pictureBox44";
             this.pictureBox44.Size = new System.Drawing.Size(89, 28);
             this.pictureBox44.TabIndex = 53;
@@ -632,7 +630,7 @@ namespace Proyecto_Arkanoid
             this.pictureBox45.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox45.BackgroundImage")));
             this.pictureBox45.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox45.Location = new System.Drawing.Point(108, 83);
+            this.pictureBox45.Location = new System.Drawing.Point(108, 178);
             this.pictureBox45.Name = "pictureBox45";
             this.pictureBox45.Size = new System.Drawing.Size(89, 28);
             this.pictureBox45.TabIndex = 54;
@@ -704,38 +702,16 @@ namespace Proyecto_Arkanoid
             this.pictureBox51.TabIndex = 60;
             this.pictureBox51.TabStop = false;
             // 
-            // pictureBox52
-            // 
-            this.pictureBox52.BackgroundImage =
-                ((System.Drawing.Image) (resources.GetObject("pictureBox52.BackgroundImage")));
-            this.pictureBox52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox52.Location = new System.Drawing.Point(411, 147);
-            this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(89, 28);
-            this.pictureBox52.TabIndex = 61;
-            this.pictureBox52.TabStop = false;
-            // 
             // pictureBox53
             // 
             this.pictureBox53.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox53.BackgroundImage")));
             this.pictureBox53.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox53.Location = new System.Drawing.Point(108, 178);
+            this.pictureBox53.Location = new System.Drawing.Point(108, 242);
             this.pictureBox53.Name = "pictureBox53";
             this.pictureBox53.Size = new System.Drawing.Size(89, 28);
             this.pictureBox53.TabIndex = 62;
             this.pictureBox53.TabStop = false;
-            // 
-            // pictureBox54
-            // 
-            this.pictureBox54.BackgroundImage =
-                ((System.Drawing.Image) (resources.GetObject("pictureBox54.BackgroundImage")));
-            this.pictureBox54.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox54.Location = new System.Drawing.Point(411, 178);
-            this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(89, 28);
-            this.pictureBox54.TabIndex = 63;
-            this.pictureBox54.TabStop = false;
             // 
             // pictureBox55
             // 
@@ -902,34 +878,12 @@ namespace Proyecto_Arkanoid
             this.pictureBox69.TabIndex = 78;
             this.pictureBox69.TabStop = false;
             // 
-            // pictureBox70
-            // 
-            this.pictureBox70.BackgroundImage =
-                ((System.Drawing.Image) (resources.GetObject("pictureBox70.BackgroundImage")));
-            this.pictureBox70.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox70.Location = new System.Drawing.Point(203, 147);
-            this.pictureBox70.Name = "pictureBox70";
-            this.pictureBox70.Size = new System.Drawing.Size(89, 28);
-            this.pictureBox70.TabIndex = 79;
-            this.pictureBox70.TabStop = false;
-            // 
-            // pictureBox71
-            // 
-            this.pictureBox71.BackgroundImage =
-                ((System.Drawing.Image) (resources.GetObject("pictureBox71.BackgroundImage")));
-            this.pictureBox71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox71.Location = new System.Drawing.Point(203, 178);
-            this.pictureBox71.Name = "pictureBox71";
-            this.pictureBox71.Size = new System.Drawing.Size(89, 28);
-            this.pictureBox71.TabIndex = 80;
-            this.pictureBox71.TabStop = false;
-            // 
             // pictureBox72
             // 
             this.pictureBox72.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox72.BackgroundImage")));
             this.pictureBox72.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox72.Location = new System.Drawing.Point(506, 178);
+            this.pictureBox72.Location = new System.Drawing.Point(509, 242);
             this.pictureBox72.Name = "pictureBox72";
             this.pictureBox72.Size = new System.Drawing.Size(89, 28);
             this.pictureBox72.TabIndex = 81;
@@ -940,11 +894,44 @@ namespace Proyecto_Arkanoid
             this.pictureBox21.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox21.BackgroundImage")));
             this.pictureBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox21.Location = new System.Drawing.Point(604, 178);
+            this.pictureBox21.Location = new System.Drawing.Point(604, 242);
             this.pictureBox21.Name = "pictureBox21";
             this.pictureBox21.Size = new System.Drawing.Size(89, 28);
             this.pictureBox21.TabIndex = 82;
             this.pictureBox21.TabStop = false;
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("pictureBox23.BackgroundImage")));
+            this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox23.Location = new System.Drawing.Point(604, 83);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(89, 28);
+            this.pictureBox23.TabIndex = 83;
+            this.pictureBox23.TabStop = false;
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("pictureBox24.BackgroundImage")));
+            this.pictureBox24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox24.Location = new System.Drawing.Point(307, 83);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(89, 28);
+            this.pictureBox24.TabIndex = 84;
+            this.pictureBox24.TabStop = false;
+            // 
+            // pictureBox73
+            // 
+            this.pictureBox73.BackgroundImage =
+                ((System.Drawing.Image) (resources.GetObject("pictureBox73.BackgroundImage")));
+            this.pictureBox73.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox73.Location = new System.Drawing.Point(203, 83);
+            this.pictureBox73.Name = "pictureBox73";
+            this.pictureBox73.Size = new System.Drawing.Size(89, 28);
+            this.pictureBox73.TabIndex = 85;
+            this.pictureBox73.TabStop = false;
             // 
             // Game
             // 
@@ -952,10 +939,11 @@ namespace Proyecto_Arkanoid
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Controls.Add(this.pictureBox73);
+            this.Controls.Add(this.pictureBox24);
+            this.Controls.Add(this.pictureBox23);
             this.Controls.Add(this.pictureBox21);
             this.Controls.Add(this.pictureBox72);
-            this.Controls.Add(this.pictureBox71);
-            this.Controls.Add(this.pictureBox70);
             this.Controls.Add(this.pictureBox69);
             this.Controls.Add(this.pictureBox68);
             this.Controls.Add(this.pictureBox67);
@@ -971,9 +959,7 @@ namespace Proyecto_Arkanoid
             this.Controls.Add(this.pictureBox57);
             this.Controls.Add(this.pictureBox56);
             this.Controls.Add(this.pictureBox55);
-            this.Controls.Add(this.pictureBox54);
             this.Controls.Add(this.pictureBox53);
-            this.Controls.Add(this.pictureBox52);
             this.Controls.Add(this.pictureBox51);
             this.Controls.Add(this.pictureBox50);
             this.Controls.Add(this.pictureBox49);
@@ -1073,9 +1059,7 @@ namespace Proyecto_Arkanoid
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox49)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox50)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox51)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox52)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox53)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox54)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox55)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox56)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox57)).EndInit();
@@ -1091,10 +1075,11 @@ namespace Proyecto_Arkanoid
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox67)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox68)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox69)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox70)).EndInit();
-            ((System.ComponentModel.ISupportInitialize) (this.pictureBox71)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox72)).EndInit();
             ((System.ComponentModel.ISupportInitialize) (this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.pictureBox73)).EndInit();
             this.ResumeLayout(false);
         }
 
@@ -1151,9 +1136,7 @@ namespace Proyecto_Arkanoid
         private System.Windows.Forms.PictureBox pictureBox46;
         private System.Windows.Forms.PictureBox pictureBox56;
         private System.Windows.Forms.PictureBox pictureBox55;
-        private System.Windows.Forms.PictureBox pictureBox54;
         private System.Windows.Forms.PictureBox pictureBox53;
-        private System.Windows.Forms.PictureBox pictureBox52;
         private System.Windows.Forms.PictureBox pictureBox60;
         private System.Windows.Forms.PictureBox pictureBox59;
         private System.Windows.Forms.PictureBox pictureBox58;
@@ -1162,13 +1145,14 @@ namespace Proyecto_Arkanoid
         private System.Windows.Forms.PictureBox pictureBox62;
         private System.Windows.Forms.PictureBox pictureBox61;
         private System.Windows.Forms.PictureBox pictureBox72;
-        private System.Windows.Forms.PictureBox pictureBox71;
-        private System.Windows.Forms.PictureBox pictureBox70;
         private System.Windows.Forms.PictureBox pictureBox69;
         private System.Windows.Forms.PictureBox pictureBox68;
         private System.Windows.Forms.PictureBox pictureBox67;
         private System.Windows.Forms.PictureBox pictureBox66;
         private System.Windows.Forms.PictureBox pictureBox65;
         private System.Windows.Forms.PictureBox pictureBox64;
+        private System.Windows.Forms.PictureBox pictureBox73;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox23;
     }
 }
