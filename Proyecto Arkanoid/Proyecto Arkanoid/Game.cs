@@ -7,6 +7,7 @@ namespace Proyecto_Arkanoid
         public Game()
         {
             InitializeComponent();
+            DoubleBuffered = true;
             Height = Screen.PrimaryScreen.Bounds.Height;
             Width = Screen.PrimaryScreen.Bounds.Width;
         }
