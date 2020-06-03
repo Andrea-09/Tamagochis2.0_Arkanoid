@@ -34,5 +34,17 @@ namespace Proyecto_Arkanoid
         {
             login1.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Top10 top = new Top10();
+            top.Show();
+            this.Hide();
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

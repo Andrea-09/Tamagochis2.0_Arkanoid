@@ -39,6 +39,9 @@
         <e p="Score.Designer.cs" t="Include" />
         <e p="Score.resx" t="Include" />
         <e p="Sprite.cs" t="Include" />
+        <e p="Top10.cs" t="Include" />
+        <e p="Top10.Designer.cs" t="Include" />
+        <e p="Top10.resx" t="Include" />
       </e>
       <e p="Proyecto Arkanoid.sln" t="IncludeFlat" />
     </e>

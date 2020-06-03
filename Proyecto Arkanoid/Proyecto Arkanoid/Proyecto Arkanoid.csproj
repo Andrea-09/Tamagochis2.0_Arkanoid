@@ -121,6 +121,12 @@
       <DependentUpon>Score.cs</DependentUpon>
     </Compile>
     <Compile Include="Sprite.cs" />
+    <Compile Include="Top10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Top10.Designer.cs">
+      <DependentUpon>Top10.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -144,6 +150,9 @@
     </Compile>
     <EmbeddedResource Include="Score.resx">
       <DependentUpon>Score.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Top10.resx">
+      <DependentUpon>Top10.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
