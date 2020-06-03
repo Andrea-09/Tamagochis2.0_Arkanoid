@@ -42,17 +42,18 @@ namespace Proyecto_Arkanoid
             this.pictureBox1.BackgroundImage =
                 ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(221, 346);
+            this.pictureBox1.Location = new System.Drawing.Point(220, 346);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(232, 65);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            
             // 
             // Game
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Controls.Add(this.pictureBox1);
             this.Name = "Game";
             this.Size = new System.Drawing.Size(707, 414);
