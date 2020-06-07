@@ -16,5 +16,7 @@ namespace Proyecto_Arkanoid
             e.Cancel = false;
             p.Show();
         }
+
+       
     }
 }

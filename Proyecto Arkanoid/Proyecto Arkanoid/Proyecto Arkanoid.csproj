@@ -99,11 +99,11 @@
     <Compile Include="Game.Designer.cs">
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
-    <Compile Include="Login.cs">
-      <SubType>UserControl</SubType>
+    <Compile Include="Login1.cs">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Login.Designer.cs">
-      <DependentUpon>Login.cs</DependentUpon>
+    <Compile Include="Login1.Designer.cs">
+      <DependentUpon>Login1.cs</DependentUpon>
     </Compile>
     <Compile Include="Paddle.cs" />
     <Compile Include="Playing.cs">
@@ -133,8 +133,8 @@
     <EmbeddedResource Include="Game.resx">
       <DependentUpon>Game.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
-      <DependentUpon>Login.cs</DependentUpon>
+    <EmbeddedResource Include="Login1.resx">
+      <DependentUpon>Login1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Playing.resx">
       <DependentUpon>Playing.cs</DependentUpon>

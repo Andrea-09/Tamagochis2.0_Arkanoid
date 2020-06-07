@@ -12,29 +12,16 @@ namespace Proyecto_Arkanoid
         public Form1()
         {
             InitializeComponent();
-           
-            
             DoubleBuffered = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         { 
-            //user.Controls.Add(user);
-            //Controls.Add(user);
-            login1.Show();
-            login1.BringToFront();
+            Login1 log = new Login1();
+            log.Show();
+            this.Hide();
         }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            login1.Hide();
-        }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             Top10 top = new Top10();
@@ -42,9 +29,16 @@ namespace Proyecto_Arkanoid
             this.Hide();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
+        
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
+
+        
     }
 }
