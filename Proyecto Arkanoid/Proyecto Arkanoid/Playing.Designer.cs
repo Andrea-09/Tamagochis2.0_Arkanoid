@@ -31,22 +31,25 @@ namespace Proyecto_Arkanoid
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Playing));
             this.game1 = new Proyecto_Arkanoid.Game();
             this.SuspendLayout();
             // 
             // game1
             // 
+            this.game1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("game1.BackgroundImage")));
+            this.game1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.game1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.game1.Location = new System.Drawing.Point(0, 0);
             this.game1.Name = "game1";
-            this.game1.Size = new System.Drawing.Size(933, 519);
+            this.game1.Size = new System.Drawing.Size(800, 450);
             this.game1.TabIndex = 0;
             // 
             // Playing
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(933, 519);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.game1);
             this.Name = "Playing";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -54,8 +57,8 @@ namespace Proyecto_Arkanoid
             this.ResumeLayout(false);
         }
 
-        #endregion
-
         private Proyecto_Arkanoid.Game game1;
+
+        #endregion
     }
 }

@@ -10,7 +10,6 @@ C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csprojAssemblyReference.cache
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Form1.resources
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Game.resources
-C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Login.resources
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Properties.Resources.resources
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.GenerateResource.cache
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.CoreCompileInputs.cache
@@ -118,3 +117,27 @@ C:\Users\Usuario\Documents\Workspaces POO\Arkanoid\Tamagochis2.0_Arkanoid\Proyec
 C:\Users\Usuario\Documents\Workspaces POO\Arkanoid\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csproj.CopyComplete
 C:\Users\Usuario\Documents\Workspaces POO\Arkanoid\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.exe
 C:\Users\Usuario\Documents\Workspaces POO\Arkanoid\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.pdb
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Npgsql.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Buffers.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Memory.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Text.Json.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.ValueTuple.dll
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Npgsql.pdb
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\Npgsql.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Buffers.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Memory.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Text.Json.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\bin\Debug\System.ValueTuple.xml
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Playing.resources
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Top10.resources
+C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.User.resources

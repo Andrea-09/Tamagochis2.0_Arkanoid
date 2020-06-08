@@ -3,14 +3,21 @@ using System.Windows.Forms;
 
 namespace Proyecto_Arkanoid
 {
-    public partial class Login : UserControl
+    public partial class User : Form
     {
-        
+        Form1 p = new Form1();
         private string name = "";
-        public Login()
+        public User()
         {
             InitializeComponent();
         }
+        
+        private void User_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = false;
+            p.Show();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             Playing play = new Playing();

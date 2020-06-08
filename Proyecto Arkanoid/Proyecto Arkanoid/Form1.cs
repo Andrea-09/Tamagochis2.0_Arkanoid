@@ -19,27 +19,21 @@ namespace Proyecto_Arkanoid
 
         private void button1_Click(object sender, EventArgs e)
         { 
-            //user.Controls.Add(user);
-            //Controls.Add(user);
-            login1.Show();
-            login1.BringToFront();
+            User u = new User();
+            u.Show();
+            this.Hide();
+        }
+        
+        private void button2_Click(object sender, EventArgs e)
+        {
+          Top10 top = new Top10();
+          top.Show();
+          this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            login1.Hide();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Top10 top = new Top10();
-            top.Show();
-            this.Hide();
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
