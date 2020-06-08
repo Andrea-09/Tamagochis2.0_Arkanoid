@@ -7,6 +7,9 @@ namespace Proyecto_Arkanoid
         public Playing()
         {
             InitializeComponent();
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
         }
     }
 }
