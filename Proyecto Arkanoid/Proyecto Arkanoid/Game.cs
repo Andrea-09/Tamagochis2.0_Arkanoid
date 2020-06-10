@@ -59,7 +59,7 @@ namespace Proyecto_Arkanoid
                     cpb[i, j].Left = j * pbWidth;
                     cpb[i, j].Top = i * pbHeight;
 
-                    cpb[i, j].BackgroundImage = Image.FromFile("./../Sprites/" + (i + 1) + ".png");
+                    cpb[i, j].BackgroundImage = Image.FromFile("../../Sprites/" + (i + 1) + ".png");
                     cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
 
                     cpb[i, j].Tag = "tileTag";

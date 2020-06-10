@@ -71,7 +71,6 @@ C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto Arkanoid.csprojAssemblyReference.cache
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Form1.resources
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Game.resources
-C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Login.resources
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Playing.resources
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Properties.Resources.resources
 C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Score.resources
@@ -141,3 +140,4 @@ C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.Top10.resources
 C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.User.resources
 C:\Users\Usuario\Documents\Workspaces POO\Arkanoid\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.User.resources
+C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid\Proyecto Arkanoid\obj\Debug\Proyecto_Arkanoid.User.resources

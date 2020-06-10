@@ -6,9 +6,9 @@ namespace Proyecto_Arkanoid
     public static class ConnectionDB
     {
         private static string host = "127.0.0.1",
-            database = "proyecto",
+            database = "Arkanoid",
             userId = "postgres",
-            password = "pimienta";
+            password = "uca";
 
         private static string sConnection =
             $"Host={host};Port=5432;User Id={userId};Password={password};Database={database};";
