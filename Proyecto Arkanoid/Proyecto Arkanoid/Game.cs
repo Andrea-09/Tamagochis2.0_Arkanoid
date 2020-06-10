@@ -7,6 +7,7 @@ namespace Proyecto_Arkanoid
     public partial class Game : UserControl
     {
         private Brick [,] cpb;
+        private PictureBox ball;
 
         public Game()
         {
@@ -18,20 +19,44 @@ namespace Proyecto_Arkanoid
 
         private void game_MouseMove(object sender, MouseEventArgs e)
         {
-            if(e.X < (Width - pictureBox1.Width))
-            pictureBox1.Left = e.X;
+            if (!GameData.gameOn)
+            {
+                if (e.X < (Width - pictureBox1.Width))
+                {
+                    pictureBox1.Left = e.X;
+                    ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+                }
+            }
+            else
+            {
+                if(e.X < (Width - pictureBox1.Width))
+                    pictureBox1.Left = e.X;
+            }
+            
         }
 
         private void Game_Load(object sender, EventArgs e)
         {
             pictureBox1.Top = (Height - pictureBox1.Height) - 80;
+            pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
+            
+            ball = new PictureBox();
+            ball.Width = ball.Height = 20;
+            ball.BackgroundImage = Image.FromFile("../../Sprites/Ball.png");
+            ball.BackgroundImageLayout = ImageLayout.Stretch;
+            
+            
+            ball.Top = pictureBox1.Top - ball.Height;
+            ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+            
+            Controls.Add(ball);
             
             loadTiles();
         }
         private void loadTiles()
         {
             int xAxis = 7;
-            int yAxis = 10; 
+            int yAxis = 12; 
             
             int pbHeight = (int)(Height * 0.3) / yAxis;
             int pbWidth = (Width - xAxis) / xAxis;

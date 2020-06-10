@@ -99,6 +99,7 @@
     <Compile Include="Game.Designer.cs">
       <DependentUpon>Game.cs</DependentUpon>
     </Compile>
+    <Compile Include="GameData.cs" />
     <Compile Include="Paddle.cs" />
     <Compile Include="Playing.cs">
       <SubType>Form</SubType>
@@ -114,7 +115,6 @@
     <Compile Include="Score.Designer.cs">
       <DependentUpon>Score.cs</DependentUpon>
     </Compile>
-    <Compile Include="Sprite.cs" />
     <Compile Include="Top10.cs">
       <SubType>Form</SubType>
     </Compile>
