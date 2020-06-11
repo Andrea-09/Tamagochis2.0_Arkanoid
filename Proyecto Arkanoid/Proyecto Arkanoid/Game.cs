@@ -52,6 +52,7 @@ namespace Proyecto_Arkanoid
             Controls.Add(ball);
             
             loadTiles();
+            timer1.Start();
         }
         private void loadTiles()
         {
@@ -69,13 +70,15 @@ namespace Proyecto_Arkanoid
                 for (int j = 0; j < xAxis; j++)
                 {
                     cpb[i , j] = new Brick();
-                    
-                    if(i == 0)
+
+                    if (i == 0)
+                    {
                         cpb[i, j].hits = 3;
+                    }
                     else
-                    
+                    {
                         cpb[i, j].hits = 2;
-                    
+                    }
 
                     cpb[i, j].Height = pbHeight;
                     cpb[i, j].Width = pbWidth;
@@ -100,6 +103,58 @@ namespace Proyecto_Arkanoid
         private int genRanNumber()
         {
             return new Random().Next(1, 12);
+        }
+        
+        private void Game_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Space) { GameData.gameOn = true; }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if(!GameData.gameOn){return;}
+
+            ball.Left += GameData.dirX;
+            ball.Top += GameData.dirY;
+            
+            BounceBall();
+        }
+
+        private void BounceBall()
+        {
+            if (ball.Bottom > Height)
+            {
+                Application.Exit();
+            }else if (ball.Left < 0 || ball.Right > Width)
+            {
+                GameData.dirX = -GameData.dirX;
+                return;
+            }
+
+            if (ball.Bounds.IntersectsWith(pictureBox1.Bounds))
+            {
+                GameData.dirY = -GameData.dirY;
+            }
+            
+            for (int i = 11; i >= 0; i--)
+            {
+                for (int j = 0; j < 7; j++)
+                {
+                    if (ball.Bounds.IntersectsWith(cpb[i, j].Bounds))
+                    {
+                        cpb[i, j].hits--;
+
+                        if (cpb[i, j].hits == 0)
+                        {
+                            Controls.Remove(cpb[i,j]);
+                        }
+                        
+                        GameData.dirY = -GameData.dirY;
+                        
+                        return;
+                    }
+                }
+            }
         }
     }
 }
