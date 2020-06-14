@@ -9,6 +9,9 @@ namespace Proyecto_Arkanoid
         public Top10()
         {
             InitializeComponent();
+            //Height = ClientSize.Height;
+            //Width = ClientSize.Width;
+            //WindowState = FormWindowState.Maximized;
         }
         
         private void Top10_FormClosing(object sender, FormClosingEventArgs e)
