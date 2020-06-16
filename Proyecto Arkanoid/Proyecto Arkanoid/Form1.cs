@@ -13,8 +13,8 @@ namespace Proyecto_Arkanoid
         {
             InitializeComponent();
             //Height = ClientSize.Height;
-            //Width = ClientSize.Width;
-           // WindowState = FormWindowState.Maximized;
+           // Width = ClientSize.Width;
+            //WindowState = FormWindowState.Maximized;
            
             
             DoubleBuffered = true;

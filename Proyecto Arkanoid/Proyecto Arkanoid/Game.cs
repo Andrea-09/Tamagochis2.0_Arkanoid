@@ -42,6 +42,9 @@ namespace Proyecto_Arkanoid
         {
             panelScore();
             
+            pictureBox1.BackgroundImage = Image.FromFile("../../Sprites/Player.png");
+            pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
+            
             pictureBox1.Top = (Height - pictureBox1.Height) - 80;
             pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
             

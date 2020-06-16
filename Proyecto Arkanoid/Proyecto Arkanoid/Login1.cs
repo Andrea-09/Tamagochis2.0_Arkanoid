@@ -11,6 +11,9 @@ namespace Proyecto_Arkanoid
         public Login1()
         {
             InitializeComponent();
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
             
         }
 

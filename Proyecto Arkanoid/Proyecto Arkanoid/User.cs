@@ -10,6 +10,9 @@ namespace Proyecto_Arkanoid
         public User()
         {
             InitializeComponent();
+            Height = ClientSize.Height;
+            Width = ClientSize.Width;
+            WindowState = FormWindowState.Maximized;
         }
         
         private void User_FormClosing(object sender, FormClosingEventArgs e)
