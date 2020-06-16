@@ -8,7 +8,10 @@ namespace Proyecto_Arkanoid
     {
         private Brick [,] cpb;
         private PictureBox ball;
-
+        private Panel scores;
+        private Label remainingLives, score1;
+        private PictureBox heart;
+     
         public Game()
         {
             InitializeComponent();
@@ -37,6 +40,8 @@ namespace Proyecto_Arkanoid
 
         private void Game_Load(object sender, EventArgs e)
         {
+            panelScore();
+            
             pictureBox1.Top = (Height - pictureBox1.Height) - 80;
             pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
             
@@ -52,7 +57,7 @@ namespace Proyecto_Arkanoid
             Controls.Add(ball);
             
             loadTiles();
-            timer1.Start();
+            
         }
         private void loadTiles()
         {
@@ -77,7 +82,7 @@ namespace Proyecto_Arkanoid
                     }
                     else
                     {
-                        cpb[i, j].hits = 2;
+                        cpb[i, j].hits = 1;
                     }
 
                     cpb[i, j].Height = pbHeight;
@@ -85,7 +90,7 @@ namespace Proyecto_Arkanoid
                     
                     //posicion de left y top
                     cpb[i, j].Left = j * pbWidth;
-                    cpb[i, j].Top = i * pbHeight;
+                    cpb[i, j].Top = i * pbHeight + scores.Height + 1;
 
                     cpb[i, j].BackgroundImage = Image.FromFile("../../Sprites/" + (i + 1) + ".png");
                     cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
@@ -107,7 +112,11 @@ namespace Proyecto_Arkanoid
         
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Space) { GameData.gameOn = true; }
+            if (e.KeyCode == Keys.Space)
+            {
+                GameData.gameOn = true;
+                timer1.Start();
+            }
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -116,7 +125,8 @@ namespace Proyecto_Arkanoid
 
             ball.Left += GameData.dirX;
             ball.Top += GameData.dirY;
-            
+
+            GameData.ticksRealize += 0.3;
             BounceBall();
         }
 
@@ -124,7 +134,20 @@ namespace Proyecto_Arkanoid
         {
             if (ball.Bottom > Height)
             {
-                Application.Exit();
+                GameData.life--;
+                GameData.gameOn = false;
+                timer1.Stop();
+                
+                repositionElements();
+                refreshElement();
+
+                if (GameData.life == 0)
+                {
+                    MessageBox.Show("Has perdido crack\nSuerte a la próxima");
+                    Application.Exit();
+                }
+                
+
             }else if (ball.Left < 0 || ball.Right > Width)
             {
                 GameData.dirX = -GameData.dirX;
@@ -142,19 +165,89 @@ namespace Proyecto_Arkanoid
                 {
                     if (ball.Bounds.IntersectsWith(cpb[i, j].Bounds))
                     {
+                        
+                        GameData.Score += (int)(cpb[i, j].hits * GameData.ticksRealize);
                         cpb[i, j].hits--;
 
                         if (cpb[i, j].hits == 0)
                         {
+                            
                             Controls.Remove(cpb[i,j]);
+                            
                         }
                         
                         GameData.dirY = -GameData.dirY;
-                        
+
+                        score1.Text = GameData.Score.ToString();
                         return;
                     }
                 }
             }
+        }
+
+        private void panelScore()
+        {
+            //Instancia panel
+            scores = new Panel();
+            
+            //Setear elementos del panel
+            scores.Width = Width;
+            scores.Height = (int) (Height * 0.07);
+
+            scores.Top = scores.Left = 0;
+            
+            scores.BackColor = Color.CornflowerBlue;
+            
+            #region Label + PictureBox
+            //Instanciar pb 
+            heart = new PictureBox();
+
+            heart.Height = heart.Width = scores.Height;
+
+            heart.Left = 20;
+            
+            heart.BackgroundImage = Image.FromFile("../../Sprites/Heart.png");
+            heart.BackgroundImageLayout = ImageLayout.Stretch;
+
+            #endregion
+            
+            //Instanciar labels
+            remainingLives = new Label();
+            score1 = new Label();
+
+            //Setear elementos de los labels
+            remainingLives.ForeColor = score1.ForeColor = Color.White;
+            
+            remainingLives.Text = "X " + GameData.life.ToString();
+            score1.Text =  "♕ " + GameData.Score.ToString();
+
+            remainingLives.Font = score1.Font = new Font("Showcard Gothic", 24F);
+            remainingLives.TextAlign = score1.TextAlign = ContentAlignment.MiddleCenter;
+            
+            remainingLives.Left = heart.Right + 5;
+            score1.Left = Width - 100;
+
+            remainingLives.Height = score1.Height = scores.Height;
+
+            scores.Controls.Add(heart);
+            scores.Controls.Add(remainingLives);
+            scores.Controls.Add(score1);
+            
+            Controls.Add(scores);
+        }
+
+        private void repositionElements()
+        {
+            pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
+            ball.Top = pictureBox1.Top - ball.Height;
+            ball.Left = pictureBox1.Left + (pictureBox1.Width / 2) - (ball.Width / 2);
+
+        }
+
+        private void refreshElement()
+        {
+            remainingLives.Text = "X " + GameData.life.ToString();
+            score1.Text = "♕ " + GameData.Score.ToString();
         }
     }
 }
