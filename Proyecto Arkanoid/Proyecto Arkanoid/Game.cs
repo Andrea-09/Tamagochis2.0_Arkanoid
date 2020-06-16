@@ -78,7 +78,7 @@ namespace Proyecto_Arkanoid
 
                     if (i == 0)
                     {
-                        cpb[i, j].hits = 3;
+                        cpb[i, j].hits = 1;
                     }
                     else
                     {
@@ -163,7 +163,7 @@ namespace Proyecto_Arkanoid
             {
                 for (int j = 0; j < 7; j++)
                 {
-                    if (ball.Bounds.IntersectsWith(cpb[i, j].Bounds))
+                    if (cpb[i, j] != null && ball.Bounds.IntersectsWith(cpb[i, j].Bounds))
                     {
                         
                         GameData.Score += (int)(cpb[i, j].hits * GameData.ticksRealize);
@@ -172,8 +172,8 @@ namespace Proyecto_Arkanoid
                         if (cpb[i, j].hits == 0)
                         {
                             
-                            Controls.Remove(cpb[i,j]);
-                            
+                            Controls.Remove(cpb[i, j]);
+                            cpb[i, j] = null;
                         }
                         
                         GameData.dirY = -GameData.dirY;
