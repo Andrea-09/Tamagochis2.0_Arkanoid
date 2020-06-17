@@ -129,7 +129,7 @@ namespace Proyecto_Arkanoid
             ball.Left += GameData.dirX;
             ball.Top += GameData.dirY;
 
-            GameData.ticksRealize += 0.3;
+            GameData.ticksRealize += 0.1;
             BounceBall();
         }
 
@@ -155,6 +155,9 @@ namespace Proyecto_Arkanoid
             {
                 GameData.dirX = -GameData.dirX;
                 return;
+            }else if (ball.Bottom < scores.Height)
+            {
+                GameData.dirY = -GameData.dirY;
             }
 
             if (ball.Bounds.IntersectsWith(pictureBox1.Bounds))
