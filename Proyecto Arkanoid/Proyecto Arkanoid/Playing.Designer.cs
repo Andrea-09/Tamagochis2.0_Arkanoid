@@ -31,12 +31,10 @@ namespace Proyecto_Arkanoid
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Playing));
+            System.ComponentModel.ComponentResourceManager resources =
+                new System.ComponentModel.ComponentResourceManager(typeof(Proyecto_Arkanoid.Playing));
             this.game1 = new Proyecto_Arkanoid.Game();
             this.SuspendLayout();
-            // 
-            // game1
-            // 
             this.game1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("game1.BackgroundImage")));
             this.game1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.game1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -44,9 +42,6 @@ namespace Proyecto_Arkanoid
             this.game1.Name = "game1";
             this.game1.Size = new System.Drawing.Size(800, 450);
             this.game1.TabIndex = 0;
-            // 
-            // Playing
-            // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);

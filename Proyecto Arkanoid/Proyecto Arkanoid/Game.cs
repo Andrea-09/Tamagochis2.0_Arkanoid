@@ -42,12 +42,15 @@ namespace Proyecto_Arkanoid
         {
             panelScore();
             
+            //Carcgando imagen desde archivo
             pictureBox1.BackgroundImage = Image.FromFile("../../Sprites/Player.png");
             pictureBox1.BackgroundImageLayout = ImageLayout.Stretch;
             
+            //Setteando top y left para la plataforma
             pictureBox1.Top = (Height - pictureBox1.Height) - 80;
             pictureBox1.Left = (Width / 2) - (pictureBox1.Width / 2);
             
+            //Carga y setteo de top y left para la pelota
             ball = new PictureBox();
             ball.Width = ball.Height = 20;
             ball.BackgroundImage = Image.FromFile("../../Sprites/Ball.png");
@@ -65,7 +68,7 @@ namespace Proyecto_Arkanoid
         private void loadTiles()
         {
             int xAxis = 7;
-            int yAxis = 12; 
+            int yAxis = 11; 
             
             int pbHeight = (int)(Height * 0.3) / yAxis;
             int pbWidth = (Width - xAxis) / xAxis;
@@ -79,26 +82,40 @@ namespace Proyecto_Arkanoid
                 {
                     cpb[i , j] = new Brick();
 
-                    if (i == 0)
+                    if (i == 10)
                     {
-                        cpb[i, j].hits = 1;
+                        cpb[i, j].hits = 2;
                     }
                     else
                     {
                         cpb[i, j].hits = 1;
                     }
-
+                    
+                    //Setteando tamaño
                     cpb[i, j].Height = pbHeight;
                     cpb[i, j].Width = pbWidth;
                     
                     //posicion de left y top
                     cpb[i, j].Left = j * pbWidth;
                     cpb[i, j].Top = i * pbHeight + scores.Height + 1;
+                    
 
-                    cpb[i, j].BackgroundImage = Image.FromFile("../../Sprites/" + (i + 1) + ".png");
+                    //Carga los sprites de bloques blindados en la fila 11
+                    if (i == 10)
+                    {
+                        cpb[i, j].BackgroundImage = Image.FromFile("../../Sprites/tb1.png");
+                        cpb[i, j].Tag = "blinded";
+                    }
+                    
+                    //Se colocan el resto de los bloques numerados en el resto de las filas
+                    else
+                    {
+                        cpb[i, j].BackgroundImage = Image.FromFile("../../Sprites/" + (i + 1) + ".png");
+                        cpb[i, j].Tag = "tileTag";
+                    }
+                    
                     cpb[i, j].BackgroundImageLayout = ImageLayout.Stretch;
-
-                    cpb[i, j].Tag = "tileTag";
+                    
                     Controls.Add(cpb[i, j]);
 
                 }
@@ -133,8 +150,10 @@ namespace Proyecto_Arkanoid
             BounceBall();
         }
 
+        //Fisicas para el rebote de la pelota
         private void BounceBall()
         {
+
             if (ball.Bottom > Height)
             {
                 GameData.life--;
@@ -165,7 +184,7 @@ namespace Proyecto_Arkanoid
                 GameData.dirY = -GameData.dirY;
             }
             
-            for (int i = 11; i >= 0; i--)
+            for (int i = 10; i >= 0; i--)
             {
                 for (int j = 0; j < 7; j++)
                 {
@@ -181,6 +200,10 @@ namespace Proyecto_Arkanoid
                             Controls.Remove(cpb[i, j]);
                             cpb[i, j] = null;
                         }
+                        
+                        //Cambio de sprite de blindado a agrietado
+                        else if(cpb[i, j].Tag.Equals("blinded"))
+                           cpb[i, j].BackgroundImage = Image.FromFile("../../Sprites/tb2.png");
                         
                         GameData.dirY = -GameData.dirY;
 
