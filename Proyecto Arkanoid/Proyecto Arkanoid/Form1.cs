@@ -24,7 +24,7 @@ namespace Proyecto_Arkanoid
         { 
             User u = new User();
             u.Show();
-            this.Hide();
+            
         }
         
         private void button2_Click(object sender, EventArgs e)

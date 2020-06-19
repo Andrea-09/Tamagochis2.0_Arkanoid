@@ -29,7 +29,7 @@ namespace Proyecto_Arkanoid
             ConnectionDB.ExecuteNonQuery(sql);
             textBox1.Text = "";
             play.Show();
-            this.Hide();
+            Dispose();
         }
     }
 }

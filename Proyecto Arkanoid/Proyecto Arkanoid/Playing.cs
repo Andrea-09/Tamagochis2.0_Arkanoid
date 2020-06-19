@@ -10,6 +10,12 @@ namespace Proyecto_Arkanoid
             Height = ClientSize.Height;
             Width = ClientSize.Width;
             WindowState = FormWindowState.Maximized;
+
+            //Oculta el user 
+            game1.finishGame = () =>
+            {
+                Dispose();
+            };
         }
     }
 }

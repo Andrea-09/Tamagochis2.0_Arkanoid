@@ -10,6 +10,8 @@ namespace Proyecto_Arkanoid
         private PictureBox ball;
         private Panel scores;
         private Label remainingLives, score1;
+        //Action para dispose de formularios
+        public Action finishGame;
         private PictureBox heart;
      
         public Game()
@@ -54,6 +56,7 @@ namespace Proyecto_Arkanoid
             ball = new PictureBox();
             ball.Width = ball.Height = 20;
             ball.BackgroundImage = Image.FromFile("../../Sprites/Ball.png");
+            ball.BackColor = Color.Transparent;
             ball.BackgroundImageLayout = ImageLayout.Stretch;
             
             
@@ -166,7 +169,8 @@ namespace Proyecto_Arkanoid
                 if (GameData.life == 0)
                 {
                     MessageBox.Show("Has perdido crack\nSuerte a la próxima");
-                    Application.Exit();
+                    finishGame?.Invoke();
+                    //Application.Exit();
                 }
                 
 
