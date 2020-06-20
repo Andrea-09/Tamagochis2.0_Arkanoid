@@ -5,6 +5,7 @@
         public static bool gameOn = false;
         public static double ticksRealize = 0;
         public static int dirX = 20, dirY = -dirX, life = 3, Score = 0;
+        public static string nickName = "";
         
         public static void initializeGame()
         {

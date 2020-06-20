@@ -16,6 +16,12 @@ namespace Proyecto_Arkanoid
             {
                 Dispose();
             };
+
+            game1.winningGame = () =>
+            {
+                PlayerController.CreateNewScore();
+                Dispose();
+            };
         }
     }
 }

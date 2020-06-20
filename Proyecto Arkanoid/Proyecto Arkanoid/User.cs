@@ -27,6 +27,7 @@ namespace Proyecto_Arkanoid
             name = textBox1.Text;
             string sql = $"INSERT INTO PLAYER(nickname) VALUES('{name}')";
             ConnectionDB.ExecuteNonQuery(sql);
+            GameData.nickName = name;
             textBox1.Text = "";
             play.Show();
             Dispose();

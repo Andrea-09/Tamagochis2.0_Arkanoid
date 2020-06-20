@@ -10,8 +10,9 @@ namespace Proyecto_Arkanoid
         private PictureBox ball;
         private Panel scores;
         private Label remainingLives, score1;
+        private int remainingBlocks = 0;
         //Action para dispose de formularios
-        public Action finishGame;
+        public Action finishGame, winningGame;
         private PictureBox heart;
      
         public Game()
@@ -71,8 +72,8 @@ namespace Proyecto_Arkanoid
         private void loadTiles()
         {
             int xAxis = 7;
-            int yAxis = 11; 
-            
+            int yAxis = 11;
+            remainingBlocks = xAxis * yAxis;
             int pbHeight = (int)(Height * 0.3) / yAxis;
             int pbWidth = (Width - xAxis) / xAxis;
 
@@ -203,6 +204,7 @@ namespace Proyecto_Arkanoid
                             
                             Controls.Remove(cpb[i, j]);
                             cpb[i, j] = null;
+                            remainingBlocks--;
                         }
                         
                         //Cambio de sprite de blindado a agrietado
@@ -212,6 +214,14 @@ namespace Proyecto_Arkanoid
                         GameData.dirY = -GameData.dirY;
 
                         score1.Text = GameData.Score.ToString();
+
+                        if (remainingBlocks == 0)
+                        {
+                            timer1.Stop();
+                            MessageBox.Show("Felicidades ganaste");
+                            winningGame.Invoke();
+                        }
+                        
                         return;
                     }
                 }
