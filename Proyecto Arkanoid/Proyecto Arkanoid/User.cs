@@ -27,14 +27,18 @@ namespace Proyecto_Arkanoid
             {
                 Playing play = new Playing();
                 name = textBox1.Text;
-                
+
                 //Si el nickname es mayor que 15
                 if (name.Length > 15)
                     throw new LongerNicknameException("Ingrese un nickname menor o igual 15 caracteres");
 
                 //si no se ingresa ningun nickname
-                 else if (name.Trim().Length == 0)
+                else if (name.Trim().Length == 0)
                     throw new EmptyNicknameException("Ingrese un nickname para empezar el juego");
+
+                else if (name.Equals(GameData.nickName))
+                    throw new ExistingNicknameException("Este nombre ya está registrado");
+
                 else
                 {
                     string sql = $"INSERT INTO PLAYER(nickname) VALUES('{name}')";
@@ -50,6 +54,10 @@ namespace Proyecto_Arkanoid
                 MessageBox.Show(ex.Message);
             }
             catch (LongerNicknameException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch (ExistingNicknameException ex)
             {
                 MessageBox.Show(ex.Message);
             }

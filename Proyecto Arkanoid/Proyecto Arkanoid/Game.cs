@@ -44,6 +44,9 @@ namespace Proyecto_Arkanoid
 
         private void Game_Load(object sender, EventArgs e)
         {
+            //Se reinician los valores del puntaje y las vidas
+            GameData.initializeGame();
+            
             panelScore();
             
             //Carcgando imagen desde archivo
@@ -127,14 +130,7 @@ namespace Proyecto_Arkanoid
             }
 
         }
-        
-       //Esto es por si queremos que los bloques aparezcan de manera random
-       //Tendría que ponerse en lugar de (i + 1) 
-        private int genRanNumber()
-        {
-            return new Random().Next(1, 12);
-        }
-        
+
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
             try
@@ -328,5 +324,6 @@ namespace Proyecto_Arkanoid
             remainingLives.Text = "X " + GameData.life.ToString();
             score1.Text = "♕ " + GameData.Score.ToString();
         }
+        
     }
 }
