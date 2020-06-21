@@ -106,6 +106,7 @@
     <Compile Include="NoRemainingLivesException.cs" />
     <Compile Include="OutOfBoundsException.cs" />
     <Compile Include="Paddle.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="PlayerController.cs" />
     <Compile Include="Playing.cs">
       <SubType>Form</SubType>
@@ -127,6 +128,7 @@
     <Compile Include="Top10.Designer.cs">
       <DependentUpon>Top10.cs</DependentUpon>
     </Compile>
+    <Compile Include="Top10Incomplete.cs" />
     <Compile Include="User.cs">
       <SubType>Form</SubType>
     </Compile>

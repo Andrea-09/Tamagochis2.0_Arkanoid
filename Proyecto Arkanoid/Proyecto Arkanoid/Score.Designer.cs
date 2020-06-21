@@ -35,9 +35,10 @@ namespace Proyecto_Arkanoid
             // 
             // Score
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Name = "Score";
+            this.Size = new System.Drawing.Size(175, 173);
             this.ResumeLayout(false);
         }
 
