@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 
@@ -136,10 +137,24 @@ namespace Proyecto_Arkanoid
         
         private void Game_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Space)
+            try
+            { 
+                //Verificacion por si el jugador presiona otra tecla al iniciar el juego
+                switch (e.KeyCode)
+                {
+                    case Keys.Space:
+                     
+                        GameData.gameOn = true;
+                        timer1.Start();
+                        break;
+                 
+                    default:
+                        throw new WrongKeyPressedException("Presione Space para comezar el juego");
+                }
+            }
+            catch (WrongKeyPressedException ex)
             {
-                GameData.gameOn = true;
-                timer1.Start();
+                MessageBox.Show(ex.Message);
             }
         }
 
@@ -147,35 +162,55 @@ namespace Proyecto_Arkanoid
         {
             if(!GameData.gameOn){return;}
 
-            ball.Left += GameData.dirX;
-            ball.Top += GameData.dirY;
+            try
+            {
+                ball.Left += GameData.dirX;
+                ball.Top += GameData.dirY;
 
-            GameData.ticksRealize += 0.1;
-            BounceBall();
+                GameData.ticksRealize += 0.1;
+                BounceBall();
+
+            }
+            catch (OutOfBoundsException ex)
+            {
+                try
+                {
+                    GameData.life--;
+                    GameData.gameOn = false;
+                    timer1.Stop();
+                
+                    repositionElements();
+                    refreshElement();
+
+                    if (GameData.life == 0)
+                    {
+                        throw new NoRemainingLivesException("");
+                    }
+                }
+                catch (NoRemainingLivesException ex2)
+                {
+                    timer1.Stop();
+                    MessageBox.Show("Has perdido :(\n¡Suerte a la próxima!");
+                    finishGame?.Invoke();
+                }
+            }
+
+
         }
 
         //Fisicas para el rebote de la pelota
         private void BounceBall()
         {
-
-            if (ball.Bottom > Height)
+            if (ball.Top < scores.Height)
             {
-                GameData.life--;
-                GameData.gameOn = false;
-                timer1.Stop();
-                
-                repositionElements();
-                refreshElement();
+                GameData.dirY = -GameData.dirY;
+                return;
+            }
 
-                if (GameData.life == 0)
-                {
-                    MessageBox.Show("Has perdido crack\nSuerte a la próxima");
-                    finishGame?.Invoke();
-                    //Application.Exit();
-                }
-                
-
-            }else if (ball.Left < 0 || ball.Right > Width)
+                if (ball.Bottom > Height)
+                throw new OutOfBoundsException("");
+            
+            else if (ball.Left < 0 || ball.Right > Width)
             {
                 GameData.dirX = -GameData.dirX;
                 return;
@@ -187,6 +222,7 @@ namespace Proyecto_Arkanoid
             if (ball.Bounds.IntersectsWith(pictureBox1.Bounds))
             {
                 GameData.dirY = -GameData.dirY;
+                return;
             }
             
             for (int i = 10; i >= 0; i--)

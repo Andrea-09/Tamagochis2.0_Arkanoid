@@ -23,14 +23,36 @@ namespace Proyecto_Arkanoid
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Playing play = new Playing();
-            name = textBox1.Text;
-            string sql = $"INSERT INTO PLAYER(nickname) VALUES('{name}')";
-            ConnectionDB.ExecuteNonQuery(sql);
-            GameData.nickName = name;
-            textBox1.Text = "";
-            play.Show();
-            Dispose();
+            try
+            {
+                Playing play = new Playing();
+                name = textBox1.Text;
+                
+                //Si el nickname es mayor que 15
+                if (name.Length > 15)
+                    throw new LongerNicknameException("Ingrese un nickname menor o igual 15 caracteres");
+
+                //si no se ingresa ningun nickname
+                 else if (name.Trim().Length == 0)
+                    throw new EmptyNicknameException("Ingrese un nickname para empezar el juego");
+                else
+                {
+                    string sql = $"INSERT INTO PLAYER(nickname) VALUES('{name}')";
+                    ConnectionDB.ExecuteNonQuery(sql);
+                    GameData.nickName = name;
+                    textBox1.Text = "";
+                    play.Show();
+                    Dispose();
+                }
+            }
+            catch (EmptyNicknameException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            catch (LongerNicknameException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

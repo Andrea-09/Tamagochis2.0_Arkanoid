@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\rjbel\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\rjbel\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto Arkanoid.-594765588.00" t="ExcludeRecursive" />
-    <e p="C:\Users\rjbel\Desktop\Universidad\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid" t="IncludeFlat">
+    <e p="C:\Users\Usuario\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Usuario\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto Arkanoid.951786949.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Usuario\Documents\Workspaces POO\Proyecto Arkanoid\Tamagochis2.0_Arkanoid\Proyecto Arkanoid" t="IncludeFlat">
       <e p="packages" t="ExcludeRecursive" />
       <e p="Proyecto Arkanoid" t="IncludeRecursive">
         <e p="App.config" t="Include" />
@@ -11,6 +11,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Brick.cs" t="Include" />
         <e p="ConnectionDB.cs" t="Include" />
+        <e p="EmptyNicknameException.cs" t="Include" />
+        <e p="ExistingNicknameException.cs" t="Include" />
         <e p="Form1.cs" t="Include" />
         <e p="Form1.Designer.cs" t="Include" />
         <e p="Form1.resx" t="Include" />
@@ -18,7 +20,10 @@
         <e p="Game.Designer.cs" t="Include" />
         <e p="Game.resx" t="Include" />
         <e p="GameData.cs" t="Include" />
+        <e p="LongerNicknameException.cs" t="Include" />
+        <e p="NoRemainingLivesException.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
+        <e p="OutOfBoundsException.cs" t="Include" />
         <e p="packages.config" t="Include" />
         <e p="Paddle.cs" t="Include" />
         <e p="PlayerController.cs" t="Include" />
@@ -43,6 +48,7 @@
         <e p="User.cs" t="Include" />
         <e p="User.Designer.cs" t="Include" />
         <e p="User.resx" t="Include" />
+        <e p="WrongKeyPressedException.cs" t="Include" />
       </e>
       <e p="Proyecto Arkanoid.sln" t="IncludeFlat" />
     </e>
