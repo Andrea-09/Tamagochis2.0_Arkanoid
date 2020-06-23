@@ -17,6 +17,7 @@ namespace Proyecto_Arkanoid
                 Dispose();
             };
 
+            //Action por si se gana el juego
             game1.winningGame = () =>
             {
                 PlayerController.CreateNewScore();

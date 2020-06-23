@@ -250,7 +250,7 @@ namespace Proyecto_Arkanoid
                         if (remainingBlocks == 0)
                         {
                             timer1.Stop();
-                            MessageBox.Show("Felicidades ganaste crack");
+                            MessageBox.Show("¡Felicidades, ganaste! ¡Gracias por jugar, eres increible!");
                             winningGame.Invoke();
                         }
                         
