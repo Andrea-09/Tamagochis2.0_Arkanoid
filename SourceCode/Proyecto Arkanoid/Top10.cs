@@ -52,7 +52,7 @@ namespace Proyecto_Arkanoid
 
                     players[i, j].Top = listTop + (listTop - 73) * i;
                     players[i, j].Height += 15;
-                    players[i, j].Width += 25;
+                    players[i, j].Width += 100;
                     players[i, j].Font = new Font("Showcard Gothic", 24F);
                     players[i, j].TextAlign = ContentAlignment.MiddleCenter;
                     players[i, j].ForeColor = Color.White;

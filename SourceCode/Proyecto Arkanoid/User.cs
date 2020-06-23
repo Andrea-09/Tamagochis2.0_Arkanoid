@@ -26,7 +26,7 @@ namespace Proyecto_Arkanoid
             try
             {
                 Playing play = new Playing();
-                name = textBox1.Text;
+                name = textBox1.Text.ToLower();
 
                 //Si el nickname es mayor que 15
                 if (name.Length > 15)
