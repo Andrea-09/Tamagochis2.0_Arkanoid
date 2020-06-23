@@ -6,13 +6,13 @@
 * Xavier Alessandro Quiñonez del Cid  00048219
 
 ## IDE
-*Rider 19.3.4
+* Rider 19.3.4
 
 ## FAQ's
 
 * ¿Cómo iniciar el juego?
 
-Para iniciar el juego debes ingresar en el botón de jugar. Al ingresar se te pedirá que ingreses un nombre de usuario. Por favor, mantelo menor a quince caracteres. Una vez ingreses tu nombre, haz click en el botón de jugar, presiona la barra **space** y listo.
+Para iniciar el juego debes darle click en el botón de "Jugar". Al entrar se te pedirá que ingreses un nombre de usuario. Por favor, mantelo menor a quince caracteres. Una vez ingreses tu nombre, haz click en el botón de jugar, presiona la barra **space** y listo.
 
 * ¿Cómo salir del juego?
 
@@ -24,7 +24,7 @@ No te preocupes, en los mensajes de ayuda se te dirá qué hacer. Si te encuentr
 
 * ¿Dónde puedo ver mi puntaje?
 
-Puedes acceder al puntaje dando click al botón en el menú principal que dice "Puntajes". Una vez presiones el botón podrás ver el diez mejores puntajes del juego, ¡puede que encuentres tu nombre dentro de la lista! Si no, sigue intentando, ¡lo lograrás!
+Puedes acceder al puntaje dando click al botón en el menú principal que dice "Puntajes". Una vez presiones el botón podrás ver los diez mejores puntajes del juego, ¡puede que encuentres tu nombre dentro de la lista! Si no, sigue intentando, ¡lo lograrás!
 
 * Mi nombre aparece en la lista de Top Jugadores, ¿qué significa esto?
 
