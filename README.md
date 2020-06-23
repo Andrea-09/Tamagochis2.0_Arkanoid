@@ -20,7 +20,7 @@ Para finalizar el juego tienes tres opciones: puedes terminar el juego si así l
 
 * ¿Qué pasa si encuentro un error?
 
-No te preocupes, en los mensajes de ayuda se te dirá qué hacer. Si te encuentras con un error al ingresar tu nombre para poder jugar se te dirá que hacer para poder arreglarlo, probablemente tu nombre es muy largo o no has ingresado nada.
+No te preocupes, en los mensajes de ayuda se te dirá qué hacer. Si te encuentras con un error al ingresar tu nombre para poder jugar se te dirá que hacer para poder arreglarlo, probablemente tu nombre es muy largo o no has ingresado nada. Lee con cuidado las instrucciones que se te den.
 
 * ¿Dónde puedo ver mi puntaje?
 
@@ -32,7 +32,7 @@ Significa que tu puntaje está dentro de los diez mejores de todo el juego, ¡fe
 
 * Si pierdo el juego, ¿mi puntaje aparecerá en la lista de puntajes?
 
-Lo sentimos, pero tu puntaje no estará ahí. Solo se pueden ver los puntajes de aquellos que han logrado terminar el juego y ahora son parte de las mejores puntuaciones. ¡Ánimo, puedes terminar el juego y ver tu máxima puntiación!
+Lo sentimos, pero tu puntaje no estará ahí. Solo se pueden ver los puntajes de aquellos que han logrado terminar el juego y ahora son parte de las mejores puntuaciones. ¡Ánimo, puedes terminar el juego y ver tu máxima puntuación!
 
 
 ## Trello
