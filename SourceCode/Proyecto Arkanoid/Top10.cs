@@ -50,6 +50,7 @@ namespace Proyecto_Arkanoid
                             players[i, j].Left = Width / 2 + listLeft;
                     }
 
+                    //Modifican tamaño y dimensiones de las listas de nicknames y scores
                     players[i, j].Top = listTop + (listTop - 73) * i;
                     players[i, j].Height += 15;
                     players[i, j].Width += 100;

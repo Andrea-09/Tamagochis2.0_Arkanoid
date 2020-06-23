@@ -7,6 +7,7 @@
 
 ## IDE
 * Rider 19.3.4
+* Rider 20.1.2
 
 ## FAQ's
 
