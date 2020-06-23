@@ -1,0 +1,432 @@
+Index: ../Documentacion/Diagrama de Clases.drawio
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><mxfile host=\"www.draw.io\" modified=\"2020-05-17T00:04:08.346Z\" agent=\"5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36\" etag=\"nphi211InbI4mmtdLsWH\" version=\"13.1.2\" type=\"device\"><diagram id=\"C5RBs43oDa-KdzZeNtuy\" name=\"Page-1\">7VrZcqM4FP0aV/U8OMViHOfRS5IeTybltDNJz6MCMiiWkUfIC/n6vgJhwBCbeGn3dFyVSqGDkNA958K5wjWzO1necjT1/mYOpjVDc5Y1s1czjFazBf8lEMZAwzRjwOXEiSE9BYbkDStQU+iMODjIdRSMUUGmedBmvo9tkcMQ52yR7zZiND/rFLm4AAxtRIvoM3GEp5ZlXKb4V0xcL5lZb17FZyYo6axWEnjIYYsMZF7XzC5nTMRHk2UXUxm7JC7Pf4bP9G7cvO0/BP+hfzp/Pd4/1ePBbj5yyWoJHPti56HfxqObr0+N1+/Twc3DQrttv/Tr6hJtjuhMxas/wy5TCxZhEsVgQSYU+dDqjJgvhuoMxKCDKHF9OLbh5jAHYI65IEBAW50QbAqo7RHq3KGQzeQSAoHscdLqeIyTNxgWUTilAwCnuVBaMpq5HkN5JcAaoBwH0GeQxEVfQXcoEKqPzShF04C8RDcsu0wQd4nfYUKwSTIQm/kOdlRrRXTUEJyNV9KR11dkQ7Emo4GXGS0qdm4xm2DBQ+iizq6EpjJNT9qLVLd6U2FeVrOmylGkcsVdjb2a7hvkFvJdCEI6n7k2X6PifMBIbjpEgXgfCdyRYQyyKoSDzFJTKNLmB3SqF3Rah2Z/5gJToLl2pFZOfLegXAi+yKiU4pF4V6PBFNkwxl3Up9dIkW9q8RJicO2IRvrwiONgP9KPQALFEpOimTLiiyg6Vgf+IIZd7cKqWXBDXWjraRv+ZHcuusyHFSASaQqDfhdYarhEbRsTebvawjyJHyU7q60cyx+l1CildDjlRODfjsUNDxhPTKg6PBbXlnFirs1SrgczeKC/4jh9ZcjOrB+S9cvWiVlvFFgvMExJ5ClUNPTS9+0W+idApBwu4ftRyqFX1wuaMIuaMEv4p+gF0wELiCBMjs/jvmu6ONVjW9ca1VjdYAn2ItUqIbWj3sX8yx9xMs8ZjPG7ZfPRKNVP/XjWLwukduNyDFKgB/GsWg9o53rgcPWApbW21gOGZhR1cqXtUg5Y1v+oHGiVGgp7JdpzSZDJ6n1qglKBHa8mKBrFs2XYm9YS+19K67Esg1FmBKVnuF5ieybwwwzz8EucrMpAyJfOYxThc/JWZLlZ8e1wiOS915juTU1nGb7Sxbxn9C3rud4ssJzsz5x3E7e5hwLNVQ1F5d1EU6+6m9ho7GIfftHdxFKlFu2udA/3xB77aII/gXfYIrf303vv7URzg7j2evro5XtMT8SRU513mI5Beskr52iFaznpxe9Xn80vHp7VVsVUPoBdLCe1+LEntottl2MXceUqPsFe0+G5vaq4e2geLWON7RmLfactv/xDy2fryQur5+F3mX7ahaZZCfKv5OACXE4C9JaKlbgVZlsDzAksR/rLzPMRO4VfElTb0gF76eJNZj4ugIqkZFiwSkhIMI4pEmSev7kN7mzAoldd4szM1poza62RG7AZt7G6KuW3MFDjPYuXDBQHojDQoWybXuGDQkY7L5RJb18qHpmHOeVcNY1dlAPT3RBKf5KOrJPKSFsrKLTWbjIy1zYaDat1IBlBM/05Ttw9/U2Tef0D</diagram></mxfile>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- ../Documentacion/Diagrama de Clases.drawio	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ ../Documentacion/Diagrama de Clases.drawio	(date 1592859053987)
+@@ -1,1 +1,1 @@
+-<mxfile host="www.draw.io" modified="2020-05-17T00:04:08.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" etag="nphi211InbI4mmtdLsWH" version="13.1.2" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VrZcqM4FP0aV/U8OMViHOfRS5IeTybltDNJz6MCMiiWkUfIC/n6vgJhwBCbeGn3dFyVSqGDkNA958K5wjWzO1necjT1/mYOpjVDc5Y1s1czjFazBf8lEMZAwzRjwOXEiSE9BYbkDStQU+iMODjIdRSMUUGmedBmvo9tkcMQ52yR7zZiND/rFLm4AAxtRIvoM3GEp5ZlXKb4V0xcL5lZb17FZyYo6axWEnjIYYsMZF7XzC5nTMRHk2UXUxm7JC7Pf4bP9G7cvO0/BP+hfzp/Pd4/1ePBbj5yyWoJHPti56HfxqObr0+N1+/Twc3DQrttv/Tr6hJtjuhMxas/wy5TCxZhEsVgQSYU+dDqjJgvhuoMxKCDKHF9OLbh5jAHYI65IEBAW50QbAqo7RHq3KGQzeQSAoHscdLqeIyTNxgWUTilAwCnuVBaMpq5HkN5JcAaoBwH0GeQxEVfQXcoEKqPzShF04C8RDcsu0wQd4nfYUKwSTIQm/kOdlRrRXTUEJyNV9KR11dkQ7Emo4GXGS0qdm4xm2DBQ+iizq6EpjJNT9qLVLd6U2FeVrOmylGkcsVdjb2a7hvkFvJdCEI6n7k2X6PifMBIbjpEgXgfCdyRYQyyKoSDzFJTKNLmB3SqF3Rah2Z/5gJToLl2pFZOfLegXAi+yKiU4pF4V6PBFNkwxl3Up9dIkW9q8RJicO2IRvrwiONgP9KPQALFEpOimTLiiyg6Vgf+IIZd7cKqWXBDXWjraRv+ZHcuusyHFSASaQqDfhdYarhEbRsTebvawjyJHyU7q60cyx+l1CildDjlRODfjsUNDxhPTKg6PBbXlnFirs1SrgczeKC/4jh9ZcjOrB+S9cvWiVlvFFgvMExJ5ClUNPTS9+0W+idApBwu4ftRyqFX1wuaMIuaMEv4p+gF0wELiCBMjs/jvmu6ONVjW9ca1VjdYAn2ItUqIbWj3sX8yx9xMs8ZjPG7ZfPRKNVP/XjWLwukduNyDFKgB/GsWg9o53rgcPWApbW21gOGZhR1cqXtUg5Y1v+oHGiVGgp7JdpzSZDJ6n1qglKBHa8mKBrFs2XYm9YS+19K67Esg1FmBKVnuF5ieybwwwzz8EucrMpAyJfOYxThc/JWZLlZ8e1wiOS915juTU1nGb7Sxbxn9C3rud4ssJzsz5x3E7e5hwLNVQ1F5d1EU6+6m9ho7GIfftHdxFKlFu2udA/3xB77aII/gXfYIrf303vv7URzg7j2evro5XtMT8SRU513mI5Beskr52iFaznpxe9Xn80vHp7VVsVUPoBdLCe1+LEntottl2MXceUqPsFe0+G5vaq4e2geLWON7RmLfactv/xDy2fryQur5+F3mX7ahaZZCfKv5OACXE4C9JaKlbgVZlsDzAksR/rLzPMRO4VfElTb0gF76eJNZj4ugIqkZFiwSkhIMI4pEmSev7kN7mzAoldd4szM1poza62RG7AZt7G6KuW3MFDjPYuXDBQHojDQoWybXuGDQkY7L5RJb18qHpmHOeVcNY1dlAPT3RBKf5KOrJPKSFsrKLTWbjIy1zYaDat1IBlBM/05Ttw9/U2Tef0D</diagram></mxfile>
+\ No newline at end of file
++<mxfile host="app.diagrams.net" modified="2020-06-22T20:50:53.571Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="AeLrRch5MQKuBfeVi-Cs" version="13.3.0" type="device"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">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</diagram></mxfile>
+\ No newline at end of file
+Index: .idea/.idea.Proyecto Arkanoid/.idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$/..\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Proyecto Arkanoid/.idea/vcs.xml	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ .idea/.idea.Proyecto Arkanoid/.idea/vcs.xml	(date 1592780640244)
+@@ -1,6 +1,7 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/.idea.Proyecto Arkanoid/riderModule.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<module type=\"RIDER_MODULE\" version=\"4\">\r\n  <component name=\"NewModuleRootManager\">\r\n    <content url=\"file://$MODULE_DIR$/../../../..\" />\r\n    <content url=\"file://$MODULE_DIR$/../../../../../Proyecto ARKANOID\" />\r\n    <orderEntry type=\"sourceFolder\" forTests=\"false\" />\r\n  </component>\r\n</module>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Proyecto Arkanoid/riderModule.iml	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ .idea/.idea.Proyecto Arkanoid/riderModule.iml	(date 1592786287610)
+@@ -1,8 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <module type="RIDER_MODULE" version="4">
+   <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$/../../../.." />
+-    <content url="file://$MODULE_DIR$/../../../../../Proyecto ARKANOID" />
++    <content url="file://$MODULE_DIR$/../../../../../ARKANOID PROJECT" />
++    <content url="file://$MODULE_DIR$/../../.." />
++    <content url="file://$MODULE_DIR$/../../../../../Proyecto Arkanoid" />
+     <orderEntry type="sourceFolder" forTests="false" />
+   </component>
+ </module>
+\ No newline at end of file
+Index: .idea/.idea.Proyecto Arkanoid/.idea/contentModel.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ContentModelStore\">\r\n    <e p=\"C:\\Users\\Usuario\\.Rider2019.3\\system\\extResources\" t=\"IncludeRecursive\" />\r\n    <e p=\"C:\\Users\\Usuario\\.Rider2019.3\\system\\resharper-host\\local\\Transient\\ReSharperHost\\v193\\SolutionCaches\\_Proyecto Arkanoid.1615969819.00\" t=\"ExcludeRecursive\" />\r\n    <e p=\"C:\\Users\\Usuario\\Documents\\Workspaces POO\\ARKANOID PROJECT\\Tamagochis2.0_Arkanoid\\Proyecto Arkanoid\" t=\"IncludeFlat\">\r\n      <e p=\"packages\" t=\"ExcludeRecursive\" />\r\n      <e p=\"Proyecto Arkanoid\" t=\"IncludeRecursive\">\r\n        <e p=\"App.config\" t=\"Include\" />\r\n        <e p=\"Ball.cs\" t=\"Include\" />\r\n        <e p=\"bin\" t=\"ExcludeRecursive\" />\r\n        <e p=\"Brick.cs\" t=\"Include\" />\r\n        <e p=\"ConnectionDB.cs\" t=\"Include\" />\r\n        <e p=\"EmptyNicknameException.cs\" t=\"Include\" />\r\n        <e p=\"ExistingNicknameException.cs\" t=\"Include\" />\r\n        <e p=\"Form1.cs\" t=\"Include\" />\r\n        <e p=\"Form1.Designer.cs\" t=\"Include\" />\r\n        <e p=\"Form1.resx\" t=\"Include\" />\r\n        <e p=\"Game.cs\" t=\"Include\" />\r\n        <e p=\"Game.Designer.cs\" t=\"Include\" />\r\n        <e p=\"Game.resx\" t=\"Include\" />\r\n        <e p=\"GameData.cs\" t=\"Include\" />\r\n        <e p=\"LongerNicknameException.cs\" t=\"Include\" />\r\n        <e p=\"NoRemainingLivesException.cs\" t=\"Include\" />\r\n        <e p=\"obj\" t=\"ExcludeRecursive\" />\r\n        <e p=\"OutOfBoundsException.cs\" t=\"Include\" />\r\n        <e p=\"packages.config\" t=\"Include\" />\r\n        <e p=\"Player.cs\" t=\"Include\" />\r\n        <e p=\"PlayerController.cs\" t=\"Include\" />\r\n        <e p=\"Playing.cs\" t=\"Include\" />\r\n        <e p=\"Playing.Designer.cs\" t=\"Include\" />\r\n        <e p=\"Playing.resx\" t=\"Include\" />\r\n        <e p=\"Program.cs\" t=\"Include\" />\r\n        <e p=\"Properties\" t=\"Include\">\r\n          <e p=\"AssemblyInfo.cs\" t=\"Include\" />\r\n          <e p=\"Resources.Designer.cs\" t=\"Include\" />\r\n          <e p=\"Resources.resx\" t=\"Include\" />\r\n          <e p=\"Settings.Designer.cs\" t=\"Include\" />\r\n          <e p=\"Settings.settings\" t=\"Include\" />\r\n        </e>\r\n        <e p=\"Proyecto Arkanoid.csproj\" t=\"IncludeRecursive\" />\r\n        <e p=\"Top10.cs\" t=\"Include\" />\r\n        <e p=\"Top10.Designer.cs\" t=\"Include\" />\r\n        <e p=\"Top10.resx\" t=\"Include\" />\r\n        <e p=\"Top10Incomplete.cs\" t=\"Include\" />\r\n        <e p=\"User.cs\" t=\"Include\" />\r\n        <e p=\"User.Designer.cs\" t=\"Include\" />\r\n        <e p=\"User.resx\" t=\"Include\" />\r\n        <e p=\"WrongKeyPressedException.cs\" t=\"Include\" />\r\n      </e>\r\n      <e p=\"Proyecto Arkanoid.sln\" t=\"IncludeFlat\" />\r\n    </e>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Proyecto Arkanoid/.idea/contentModel.xml	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ .idea/.idea.Proyecto Arkanoid/.idea/contentModel.xml	(date 1592786287703)
+@@ -1,9 +1,9 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ContentModelStore">
+-    <e p="C:\Users\Usuario\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+-    <e p="C:\Users\Usuario\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Proyecto Arkanoid.1615969819.00" t="ExcludeRecursive" />
+-    <e p="C:\Users\Usuario\Documents\Workspaces POO\ARKANOID PROJECT\Tamagochis2.0_Arkanoid\Proyecto Arkanoid" t="IncludeFlat">
++    <e p="C:\Users\xavie\AppData\local\JetBrains\Rider2020.1\extResources" t="IncludeRecursive" />
++    <e p="C:\Users\xavie\AppData\local\JetBrains\Rider2020.1\resharper-host\local\Transient\ReSharperHost\v201\SolutionCaches\_Proyecto Arkanoid.-367299102.00" t="ExcludeRecursive" />
++    <e p="C:\Users\xavie\OneDrive\Documentos\WorkSpace\POO\Tamagochis2.0_Arkanoid\Proyecto Arkanoid" t="IncludeFlat">
+       <e p="packages" t="ExcludeRecursive" />
+       <e p="Proyecto Arkanoid" t="IncludeRecursive">
+         <e p="App.config" t="Include" />
+Index: Proyecto Arkanoid/Game.Designer.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System.ComponentModel;\r\n\r\nnamespace Proyecto_Arkanoid\r\n{\r\n    partial class Game\r\n    {\r\n        /// <summary> \r\n        /// Required designer variable.\r\n        /// </summary>\r\n        private IContainer components = null;\r\n\r\n        /// <summary> \r\n        /// Clean up any resources being used.\r\n        /// </summary>\r\n        /// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>\r\n        protected override void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }\r\n\r\n            base.Dispose(disposing);\r\n        }\r\n\r\n        #region Component Designer generated code\r\n\r\n        /// <summary>\r\n        /// Required method for Designer support - do not modify\r\n        /// the contents of this method with the code editor.\r\n        /// </summary>\r\n        private void InitializeComponent()\r\n        {\r\n            this.components = new System.ComponentModel.Container();\r\n            System.ComponentModel.ComponentResourceManager resources =\r\n                new System.ComponentModel.ComponentResourceManager(typeof(Game));\r\n            this.pictureBox1 = new System.Windows.Forms.PictureBox();\r\n            this.timer1 = new System.Windows.Forms.Timer(this.components);\r\n            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();\r\n            this.SuspendLayout();\r\n            // \r\n            // pictureBox1\r\n            // \r\n            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;\r\n            this.pictureBox1.BackgroundImage =\r\n                ((System.Drawing.Image) (resources.GetObject(\"pictureBox1.BackgroundImage\")));\r\n            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;\r\n            this.pictureBox1.Location = new System.Drawing.Point(251, 460);\r\n            this.pictureBox1.Name = \"pictureBox1\";\r\n            this.pictureBox1.Size = new System.Drawing.Size(199, 59);\r\n            this.pictureBox1.TabIndex = 0;\r\n            this.pictureBox1.TabStop = false;\r\n            // \r\n            // timer1\r\n            // \r\n            this.timer1.Interval = 50;\r\n            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);\r\n            // \r\n            // Game\r\n            // \r\n            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);\r\n            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;\r\n            this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject(\"$this.BackgroundImage\")));\r\n            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;\r\n            this.Controls.Add(this.pictureBox1);\r\n            this.Name = \"Game\";\r\n            this.Size = new System.Drawing.Size(715, 522);\r\n            this.Load += new System.EventHandler(this.Game_Load);\r\n            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_KeyDown);\r\n            this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.game_MouseMove);\r\n            ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).EndInit();\r\n            this.ResumeLayout(false);\r\n        }\r\n\r\n        private System.Windows.Forms.PictureBox pictureBox1;\r\n        private System.Windows.Forms.Timer timer1;\r\n\r\n        #endregion\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Proyecto Arkanoid/Game.Designer.cs	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ Proyecto Arkanoid/Game.Designer.cs	(date 1592800544974)
+@@ -32,8 +32,7 @@
+         private void InitializeComponent()
+         {
+             this.components = new System.ComponentModel.Container();
+-            System.ComponentModel.ComponentResourceManager resources =
+-                new System.ComponentModel.ComponentResourceManager(typeof(Game));
++            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
+             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+             this.timer1 = new System.Windows.Forms.Timer(this.components);
+             ((System.ComponentModel.ISupportInitialize) (this.pictureBox1)).BeginInit();
+@@ -42,12 +41,11 @@
+             // pictureBox1
+             // 
+             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+-            this.pictureBox1.BackgroundImage =
+-                ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
++            this.pictureBox1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("pictureBox1.BackgroundImage")));
+             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+-            this.pictureBox1.Location = new System.Drawing.Point(251, 460);
++            this.pictureBox1.Location = new System.Drawing.Point(215, 399);
+             this.pictureBox1.Name = "pictureBox1";
+-            this.pictureBox1.Size = new System.Drawing.Size(199, 59);
++            this.pictureBox1.Size = new System.Drawing.Size(171, 51);
+             this.pictureBox1.TabIndex = 0;
+             this.pictureBox1.TabStop = false;
+             // 
+@@ -58,13 +56,13 @@
+             // 
+             // Game
+             // 
+-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
++            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
+             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+             this.Controls.Add(this.pictureBox1);
+             this.Name = "Game";
+-            this.Size = new System.Drawing.Size(715, 522);
++            this.Size = new System.Drawing.Size(613, 452);
+             this.Load += new System.EventHandler(this.Game_Load);
+             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Game_KeyDown);
+             this.MouseMove += new System.Windows.Forms.MouseEventHandler(this.game_MouseMove);
+Index: .idea/.idea.Proyecto Arkanoid/.idea/projectSettingsUpdater.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"RiderProjectSettingsUpdater\">\r\n    <option name=\"vcsConfiguration\" value=\"1\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/.idea.Proyecto Arkanoid/.idea/projectSettingsUpdater.xml	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ .idea/.idea.Proyecto Arkanoid/.idea/projectSettingsUpdater.xml	(date 1592780640333)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="RiderProjectSettingsUpdater">
+-    <option name="vcsConfiguration" value="1" />
++    <option name="vcsConfiguration" value="2" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: Proyecto Arkanoid/Top10.Designer.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System.ComponentModel;\r\n\r\nnamespace Proyecto_Arkanoid\r\n{\r\n    partial class Top10\r\n    {\r\n        /// <summary>\r\n        /// Required designer variable.\r\n        /// </summary>\r\n        private IContainer components = null;\r\n\r\n        /// <summary>\r\n        /// Clean up any resources being used.\r\n        /// </summary>\r\n        /// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>\r\n        protected override void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }\r\n\r\n            base.Dispose(disposing);\r\n        }\r\n\r\n        #region Windows Form Designer generated code\r\n\r\n        /// <summary>\r\n        /// Required method for Designer support - do not modify\r\n        /// the contents of this method with the code editor.\r\n        /// </summary>\r\n        private void InitializeComponent()\r\n        {\r\n            System.ComponentModel.ComponentResourceManager resources =\r\n                new System.ComponentModel.ComponentResourceManager(typeof(Top10));\r\n            this.label9 = new System.Windows.Forms.Label();\r\n            this.label10 = new System.Windows.Forms.Label();\r\n            this.label19 = new System.Windows.Forms.Label();\r\n            this.label20 = new System.Windows.Forms.Label();\r\n            this.SuspendLayout();\r\n            // \r\n            // label9\r\n            // \r\n            this.label9.BackColor = System.Drawing.Color.Transparent;\r\n            this.label9.Font = new System.Drawing.Font(\"Showcard Gothic\", 24F);\r\n            this.label9.ForeColor = System.Drawing.Color.White;\r\n            this.label9.Location = new System.Drawing.Point(20, 753);\r\n            this.label9.Name = \"label9\";\r\n            this.label9.Size = new System.Drawing.Size(192, 42);\r\n            this.label9.TabIndex = 8;\r\n            this.label9.Text = \"Jugador\";\r\n            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;\r\n            // \r\n            // label10\r\n            // \r\n            this.label10.BackColor = System.Drawing.Color.Transparent;\r\n            this.label10.Font = new System.Drawing.Font(\"Showcard Gothic\", 24F);\r\n            this.label10.ForeColor = System.Drawing.Color.White;\r\n            this.label10.Location = new System.Drawing.Point(20, 819);\r\n            this.label10.Name = \"label10\";\r\n            this.label10.Size = new System.Drawing.Size(192, 42);\r\n            this.label10.TabIndex = 9;\r\n            this.label10.Text = \"Jugador\";\r\n            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;\r\n            // \r\n            // label19\r\n            // \r\n            this.label19.BackColor = System.Drawing.Color.Transparent;\r\n            this.label19.Font = new System.Drawing.Font(\"Showcard Gothic\", 24F);\r\n            this.label19.ForeColor = System.Drawing.Color.White;\r\n            this.label19.Location = new System.Drawing.Point(314, 753);\r\n            this.label19.Name = \"label19\";\r\n            this.label19.Size = new System.Drawing.Size(87, 42);\r\n            this.label19.TabIndex = 18;\r\n            this.label19.Text = \"0\";\r\n            this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;\r\n            // \r\n            // label20\r\n            // \r\n            this.label20.BackColor = System.Drawing.Color.Transparent;\r\n            this.label20.Font = new System.Drawing.Font(\"Showcard Gothic\", 24F);\r\n            this.label20.ForeColor = System.Drawing.Color.White;\r\n            this.label20.Location = new System.Drawing.Point(314, 819);\r\n            this.label20.Name = \"label20\";\r\n            this.label20.Size = new System.Drawing.Size(87, 42);\r\n            this.label20.TabIndex = 19;\r\n            this.label20.Text = \"0\";\r\n            this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;\r\n            // \r\n            // Top10\r\n            // \r\n            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);\r\n            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;\r\n            this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject(\"$this.BackgroundImage\")));\r\n            this.ClientSize = new System.Drawing.Size(484, 749);\r\n            this.Controls.Add(this.label20);\r\n            this.Controls.Add(this.label19);\r\n            this.Controls.Add(this.label10);\r\n            this.Controls.Add(this.label9);\r\n            this.DoubleBuffered = true;\r\n            this.Icon = ((System.Drawing.Icon) (resources.GetObject(\"$this.Icon\")));\r\n            this.MaximizeBox = false;\r\n            this.Name = \"Top10\";\r\n            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;\r\n            this.Text = \"Top10\";\r\n            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Top10_FormClosing);\r\n            this.Load += new System.EventHandler(this.Top10_Load);\r\n            this.ResumeLayout(false);\r\n        }\r\n\r\n        private System.Windows.Forms.Label label10;\r\n        private System.Windows.Forms.Label label19;\r\n        private System.Windows.Forms.Label label20;\r\n        private System.Windows.Forms.Label label9;\r\n\r\n        #endregion\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Proyecto Arkanoid/Top10.Designer.cs	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ Proyecto Arkanoid/Top10.Designer.cs	(date 1592798455949)
+@@ -31,8 +31,7 @@
+         /// </summary>
+         private void InitializeComponent()
+         {
+-            System.ComponentModel.ComponentResourceManager resources =
+-                new System.ComponentModel.ComponentResourceManager(typeof(Top10));
++            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Top10));
+             this.label9 = new System.Windows.Forms.Label();
+             this.label10 = new System.Windows.Forms.Label();
+             this.label19 = new System.Windows.Forms.Label();
+@@ -44,9 +43,9 @@
+             this.label9.BackColor = System.Drawing.Color.Transparent;
+             this.label9.Font = new System.Drawing.Font("Showcard Gothic", 24F);
+             this.label9.ForeColor = System.Drawing.Color.White;
+-            this.label9.Location = new System.Drawing.Point(20, 753);
++            this.label9.Location = new System.Drawing.Point(17, 653);
+             this.label9.Name = "label9";
+-            this.label9.Size = new System.Drawing.Size(192, 42);
++            this.label9.Size = new System.Drawing.Size(165, 36);
+             this.label9.TabIndex = 8;
+             this.label9.Text = "Jugador";
+             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+@@ -56,9 +55,9 @@
+             this.label10.BackColor = System.Drawing.Color.Transparent;
+             this.label10.Font = new System.Drawing.Font("Showcard Gothic", 24F);
+             this.label10.ForeColor = System.Drawing.Color.White;
+-            this.label10.Location = new System.Drawing.Point(20, 819);
++            this.label10.Location = new System.Drawing.Point(17, 710);
+             this.label10.Name = "label10";
+-            this.label10.Size = new System.Drawing.Size(192, 42);
++            this.label10.Size = new System.Drawing.Size(165, 36);
+             this.label10.TabIndex = 9;
+             this.label10.Text = "Jugador";
+             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+@@ -68,9 +67,9 @@
+             this.label19.BackColor = System.Drawing.Color.Transparent;
+             this.label19.Font = new System.Drawing.Font("Showcard Gothic", 24F);
+             this.label19.ForeColor = System.Drawing.Color.White;
+-            this.label19.Location = new System.Drawing.Point(314, 753);
++            this.label19.Location = new System.Drawing.Point(269, 653);
+             this.label19.Name = "label19";
+-            this.label19.Size = new System.Drawing.Size(87, 42);
++            this.label19.Size = new System.Drawing.Size(75, 36);
+             this.label19.TabIndex = 18;
+             this.label19.Text = "0";
+             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+@@ -80,19 +79,19 @@
+             this.label20.BackColor = System.Drawing.Color.Transparent;
+             this.label20.Font = new System.Drawing.Font("Showcard Gothic", 24F);
+             this.label20.ForeColor = System.Drawing.Color.White;
+-            this.label20.Location = new System.Drawing.Point(314, 819);
++            this.label20.Location = new System.Drawing.Point(269, 710);
+             this.label20.Name = "label20";
+-            this.label20.Size = new System.Drawing.Size(87, 42);
++            this.label20.Size = new System.Drawing.Size(75, 36);
+             this.label20.TabIndex = 19;
+             this.label20.Text = "0";
+             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+             // 
+             // Top10
+             // 
+-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
++            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
+-            this.ClientSize = new System.Drawing.Size(484, 749);
++            this.ClientSize = new System.Drawing.Size(415, 649);
+             this.Controls.Add(this.label20);
+             this.Controls.Add(this.label19);
+             this.Controls.Add(this.label10);
+Index: Proyecto Arkanoid/User.Designer.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System.ComponentModel;\r\n\r\nnamespace Proyecto_Arkanoid\r\n{\r\n    partial class User\r\n    {\r\n        /// <summary>\r\n        /// Required designer variable.\r\n        /// </summary>\r\n        private IContainer components = null;\r\n\r\n        /// <summary>\r\n        /// Clean up any resources being used.\r\n        /// </summary>\r\n        /// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>\r\n        protected override void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }\r\n\r\n            base.Dispose(disposing);\r\n        }\r\n\r\n        #region Windows Form Designer generated code\r\n\r\n        /// <summary>\r\n        /// Required method for Designer support - do not modify\r\n        /// the contents of this method with the code editor.\r\n        /// </summary>\r\n        private void InitializeComponent()\r\n        {\r\n            System.ComponentModel.ComponentResourceManager resources =\r\n                new System.ComponentModel.ComponentResourceManager(typeof(User));\r\n            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();\r\n            this.textBox1 = new System.Windows.Forms.TextBox();\r\n            this.button1 = new System.Windows.Forms.Button();\r\n            this.tableLayoutPanel1.SuspendLayout();\r\n            this.SuspendLayout();\r\n            // \r\n            // tableLayoutPanel1\r\n            // \r\n            this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;\r\n            this.tableLayoutPanel1.BackgroundImage =\r\n                ((System.Drawing.Image) (resources.GetObject(\"tableLayoutPanel1.BackgroundImage\")));\r\n            this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;\r\n            this.tableLayoutPanel1.ColumnCount = 1;\r\n            this.tableLayoutPanel1.ColumnStyles.Add(\r\n                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));\r\n            this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 1);\r\n            this.tableLayoutPanel1.Controls.Add(this.button1, 0, 2);\r\n            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;\r\n            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);\r\n            this.tableLayoutPanel1.Name = \"tableLayoutPanel1\";\r\n            this.tableLayoutPanel1.RowCount = 3;\r\n            this.tableLayoutPanel1.RowStyles.Add(\r\n                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));\r\n            this.tableLayoutPanel1.RowStyles.Add(\r\n                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));\r\n            this.tableLayoutPanel1.RowStyles.Add(\r\n                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));\r\n            this.tableLayoutPanel1.Size = new System.Drawing.Size(735, 543);\r\n            this.tableLayoutPanel1.TabIndex = 0;\r\n            // \r\n            // textBox1\r\n            // \r\n            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;\r\n            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (98)))), ((int) (((byte) (148)))),\r\n                ((int) (((byte) (217)))));\r\n            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;\r\n            this.textBox1.Font = new System.Drawing.Font(\"Showcard Gothic\", 27.75F, System.Drawing.FontStyle.Regular,\r\n                System.Drawing.GraphicsUnit.Point, ((byte) (0)));\r\n            this.textBox1.ForeColor = System.Drawing.Color.White;\r\n            this.textBox1.Location = new System.Drawing.Point(139, 248);\r\n            this.textBox1.Name = \"textBox1\";\r\n            this.textBox1.Size = new System.Drawing.Size(456, 46);\r\n            this.textBox1.TabIndex = 0;\r\n            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;\r\n            // \r\n            // button1\r\n            // \r\n            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Top;\r\n            this.button1.BackColor = System.Drawing.Color.Transparent;\r\n            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;\r\n            this.button1.Font = new System.Drawing.Font(\"Showcard Gothic\", 12F);\r\n            this.button1.ForeColor = System.Drawing.Color.White;\r\n            this.button1.Location = new System.Drawing.Point(286, 365);\r\n            this.button1.Name = \"button1\";\r\n            this.button1.Size = new System.Drawing.Size(162, 48);\r\n            this.button1.TabIndex = 1;\r\n            this.button1.Text = \"Comenzar\";\r\n            this.button1.UseVisualStyleBackColor = false;\r\n            this.button1.Click += new System.EventHandler(this.button1_Click);\r\n            // \r\n            // User\r\n            // \r\n            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);\r\n            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;\r\n            this.BackColor = System.Drawing.Color.Gray;\r\n            this.ClientSize = new System.Drawing.Size(735, 543);\r\n            this.Controls.Add(this.tableLayoutPanel1);\r\n            this.Icon = ((System.Drawing.Icon) (resources.GetObject(\"$this.Icon\")));\r\n            this.Name = \"User\";\r\n            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;\r\n            this.Text = \"User\";\r\n            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.User_FormClosing);\r\n            this.tableLayoutPanel1.ResumeLayout(false);\r\n            this.tableLayoutPanel1.PerformLayout();\r\n            this.ResumeLayout(false);\r\n        }\r\n\r\n        private System.Windows.Forms.Button button1;\r\n        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;\r\n        private System.Windows.Forms.TextBox textBox1;\r\n\r\n        #endregion\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Proyecto Arkanoid/User.Designer.cs	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ Proyecto Arkanoid/User.Designer.cs	(date 1592798531497)
+@@ -31,8 +31,7 @@
+         /// </summary>
+         private void InitializeComponent()
+         {
+-            System.ComponentModel.ComponentResourceManager resources =
+-                new System.ComponentModel.ComponentResourceManager(typeof(User));
++            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(User));
+             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+             this.textBox1 = new System.Windows.Forms.TextBox();
+             this.button1 = new System.Windows.Forms.Button();
+@@ -42,39 +41,32 @@
+             // tableLayoutPanel1
+             // 
+             this.tableLayoutPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+-            this.tableLayoutPanel1.BackgroundImage =
+-                ((System.Drawing.Image) (resources.GetObject("tableLayoutPanel1.BackgroundImage")));
++            this.tableLayoutPanel1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("tableLayoutPanel1.BackgroundImage")));
+             this.tableLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+             this.tableLayoutPanel1.ColumnCount = 1;
+-            this.tableLayoutPanel1.ColumnStyles.Add(
+-                new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
++            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+             this.tableLayoutPanel1.Controls.Add(this.textBox1, 0, 1);
+             this.tableLayoutPanel1.Controls.Add(this.button1, 0, 2);
+             this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+             this.tableLayoutPanel1.RowCount = 3;
+-            this.tableLayoutPanel1.RowStyles.Add(
+-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+-            this.tableLayoutPanel1.RowStyles.Add(
+-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+-            this.tableLayoutPanel1.RowStyles.Add(
+-                new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+-            this.tableLayoutPanel1.Size = new System.Drawing.Size(735, 543);
++            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
++            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
++            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
++            this.tableLayoutPanel1.Size = new System.Drawing.Size(630, 471);
+             this.tableLayoutPanel1.TabIndex = 0;
+             // 
+             // textBox1
+             // 
+             this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (98)))), ((int) (((byte) (148)))),
+-                ((int) (((byte) (217)))));
++            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int) (((byte) (98)))), ((int) (((byte) (148)))), ((int) (((byte) (217)))));
+             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+-            this.textBox1.Font = new System.Drawing.Font("Showcard Gothic", 27.75F, System.Drawing.FontStyle.Regular,
+-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
++            this.textBox1.Font = new System.Drawing.Font("Showcard Gothic", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+             this.textBox1.ForeColor = System.Drawing.Color.White;
+-            this.textBox1.Location = new System.Drawing.Point(139, 248);
++            this.textBox1.Location = new System.Drawing.Point(119, 212);
+             this.textBox1.Name = "textBox1";
+-            this.textBox1.Size = new System.Drawing.Size(456, 46);
++            this.textBox1.Size = new System.Drawing.Size(391, 46);
+             this.textBox1.TabIndex = 0;
+             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+             // 
+@@ -85,9 +77,9 @@
+             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+             this.button1.Font = new System.Drawing.Font("Showcard Gothic", 12F);
+             this.button1.ForeColor = System.Drawing.Color.White;
+-            this.button1.Location = new System.Drawing.Point(286, 365);
++            this.button1.Location = new System.Drawing.Point(245, 317);
+             this.button1.Name = "button1";
+-            this.button1.Size = new System.Drawing.Size(162, 48);
++            this.button1.Size = new System.Drawing.Size(139, 42);
+             this.button1.TabIndex = 1;
+             this.button1.Text = "Comenzar";
+             this.button1.UseVisualStyleBackColor = false;
+@@ -95,10 +87,10 @@
+             // 
+             // User
+             // 
+-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
++            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+             this.BackColor = System.Drawing.Color.Gray;
+-            this.ClientSize = new System.Drawing.Size(735, 543);
++            this.ClientSize = new System.Drawing.Size(630, 471);
+             this.Controls.Add(this.tableLayoutPanel1);
+             this.Icon = ((System.Drawing.Icon) (resources.GetObject("$this.Icon")));
+             this.Name = "User";
+Index: Proyecto Arkanoid/Playing.Designer.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System.ComponentModel;\r\n\r\nnamespace Proyecto_Arkanoid\r\n{\r\n    partial class Playing\r\n    {\r\n        /// <summary>\r\n        /// Required designer variable.\r\n        /// </summary>\r\n        private IContainer components = null;\r\n\r\n        /// <summary>\r\n        /// Clean up any resources being used.\r\n        /// </summary>\r\n        /// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>\r\n        protected override void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }\r\n\r\n            base.Dispose(disposing);\r\n        }\r\n\r\n        #region Windows Form Designer generated code\r\n\r\n        /// <summary>\r\n        /// Required method for Designer support - do not modify\r\n        /// the contents of this method with the code editor.\r\n        /// </summary>\r\n        private void InitializeComponent()\r\n        {\r\n            System.ComponentModel.ComponentResourceManager resources =\r\n                new System.ComponentModel.ComponentResourceManager(typeof(Proyecto_Arkanoid.Playing));\r\n            this.game1 = new Proyecto_Arkanoid.Game();\r\n            this.SuspendLayout();\r\n            this.game1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject(\"game1.BackgroundImage\")));\r\n            this.game1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;\r\n            this.game1.Dock = System.Windows.Forms.DockStyle.Fill;\r\n            this.game1.Location = new System.Drawing.Point(0, 0);\r\n            this.game1.Name = \"game1\";\r\n            this.game1.Size = new System.Drawing.Size(800, 450);\r\n            this.game1.TabIndex = 0;\r\n            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);\r\n            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;\r\n            this.ClientSize = new System.Drawing.Size(800, 450);\r\n            this.Controls.Add(this.game1);\r\n            this.Name = \"Playing\";\r\n            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;\r\n            this.Text = \"Playing\";\r\n            this.ResumeLayout(false);\r\n        }\r\n\r\n        private Proyecto_Arkanoid.Game game1;\r\n\r\n        #endregion\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Proyecto Arkanoid/Playing.Designer.cs	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ Proyecto Arkanoid/Playing.Designer.cs	(date 1592800557079)
+@@ -31,8 +31,7 @@
+         /// </summary>
+         private void InitializeComponent()
+         {
+-            System.ComponentModel.ComponentResourceManager resources =
+-                new System.ComponentModel.ComponentResourceManager(typeof(Proyecto_Arkanoid.Playing));
++            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proyecto_Arkanoid.Playing));
+             this.game1 = new Proyecto_Arkanoid.Game();
+             this.SuspendLayout();
+             this.game1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("game1.BackgroundImage")));
+Index: Proyecto Arkanoid/User.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\r\nusing System.Windows.Forms;\r\n\r\nnamespace Proyecto_Arkanoid\r\n{\r\n    public partial class User : Form\r\n    {\r\n        Form1 p = new Form1();\r\n        private string name = \"\";\r\n        public User()\r\n        {\r\n            InitializeComponent();\r\n            Height = ClientSize.Height;\r\n            Width = ClientSize.Width;\r\n            WindowState = FormWindowState.Maximized;\r\n        }\r\n        \r\n        private void User_FormClosing(object sender, FormClosingEventArgs e)\r\n        {\r\n            e.Cancel = false;\r\n            p.Show();\r\n        }\r\n\r\n        private void button1_Click(object sender, EventArgs e)\r\n        {\r\n            try\r\n            {\r\n                Playing play = new Playing();\r\n                name = textBox1.Text;\r\n\r\n                //Si el nickname es mayor que 15\r\n                if (name.Length > 15)\r\n                    throw new LongerNicknameException(\"Ingrese un nickname menor o igual 15 caracteres\");\r\n\r\n                //si no se ingresa ningun nickname\r\n                else if (name.Trim().Length == 0)\r\n                    throw new EmptyNicknameException(\"Ingrese un nickname para empezar el juego\");\r\n\r\n                else if (name.Equals(GameData.nickName))\r\n                    throw new ExistingNicknameException(\"Este nombre ya está registrado\");\r\n\r\n                else\r\n                {\r\n                    string sql = $\"INSERT INTO PLAYER(nickname) VALUES('{name}')\";\r\n                    ConnectionDB.ExecuteNonQuery(sql);\r\n                    GameData.nickName = name;\r\n                    textBox1.Text = \"\";\r\n                    play.Show();\r\n                    Dispose();\r\n                }\r\n            }\r\n            catch (EmptyNicknameException ex)\r\n            {\r\n                MessageBox.Show(ex.Message);\r\n            }\r\n            catch (LongerNicknameException ex)\r\n            {\r\n                MessageBox.Show(ex.Message);\r\n            }\r\n            catch (ExistingNicknameException ex)\r\n            {\r\n                MessageBox.Show(ex.Message);\r\n            }\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Proyecto Arkanoid/User.cs	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ Proyecto Arkanoid/User.cs	(date 1592798266506)
+@@ -35,7 +35,6 @@
+                 //si no se ingresa ningun nickname
+                 else if (name.Trim().Length == 0)
+                     throw new EmptyNicknameException("Ingrese un nickname para empezar el juego");
+-
+                 else if (name.Equals(GameData.nickName))
+                     throw new ExistingNicknameException("Este nombre ya está registrado");
+ 
+Index: Proyecto Arkanoid/Form1.Designer.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>namespace Proyecto_Arkanoid\r\n{\r\n    partial class Form1\r\n    {\r\n        /// <summary>\r\n        /// Required designer variable.\r\n        /// </summary>\r\n        private System.ComponentModel.IContainer components = null;\r\n\r\n        /// <summary>\r\n        /// Clean up any resources being used.\r\n        /// </summary>\r\n        /// <param name=\"disposing\">true if managed resources should be disposed; otherwise, false.</param>\r\n        protected override void Dispose(bool disposing)\r\n        {\r\n            if (disposing && (components != null))\r\n            {\r\n                components.Dispose();\r\n            }\r\n\r\n            base.Dispose(disposing);\r\n        }\r\n\r\n        #region Windows Form Designer generated code\r\n\r\n        /// <summary>\r\n        /// Required method for Designer support - do not modify\r\n        /// the contents of this method with the code editor.\r\n        /// </summary>\r\n        private void InitializeComponent()\r\n        {\r\n            System.ComponentModel.ComponentResourceManager resources =\r\n                new System.ComponentModel.ComponentResourceManager(typeof(Form1));\r\n            this.button1 = new System.Windows.Forms.Button();\r\n            this.button2 = new System.Windows.Forms.Button();\r\n            this.button3 = new System.Windows.Forms.Button();\r\n            this.SuspendLayout();\r\n            // \r\n            // button1\r\n            // \r\n            this.button1.BackColor = System.Drawing.Color.Transparent;\r\n            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;\r\n            this.button1.Font = new System.Drawing.Font(\"Showcard Gothic\", 12F, System.Drawing.FontStyle.Regular,\r\n                System.Drawing.GraphicsUnit.Point, ((byte) (0)));\r\n            this.button1.Location = new System.Drawing.Point(332, 258);\r\n            this.button1.Name = \"button1\";\r\n            this.button1.Size = new System.Drawing.Size(177, 55);\r\n            this.button1.TabIndex = 0;\r\n            this.button1.UseVisualStyleBackColor = false;\r\n            this.button1.Click += new System.EventHandler(this.button1_Click);\r\n            // \r\n            // button2\r\n            // \r\n            this.button2.BackColor = System.Drawing.Color.Transparent;\r\n            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;\r\n            this.button2.Font = new System.Drawing.Font(\"Showcard Gothic\", 12F, System.Drawing.FontStyle.Regular,\r\n                System.Drawing.GraphicsUnit.Point, ((byte) (0)));\r\n            this.button2.Location = new System.Drawing.Point(332, 342);\r\n            this.button2.Name = \"button2\";\r\n            this.button2.Size = new System.Drawing.Size(177, 55);\r\n            this.button2.TabIndex = 1;\r\n            this.button2.UseVisualStyleBackColor = false;\r\n            this.button2.Click += new System.EventHandler(this.button2_Click);\r\n            // \r\n            // button3\r\n            // \r\n            this.button3.BackColor = System.Drawing.Color.Transparent;\r\n            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;\r\n            this.button3.Font = new System.Drawing.Font(\"Showcard Gothic\", 12F, System.Drawing.FontStyle.Regular,\r\n                System.Drawing.GraphicsUnit.Point, ((byte) (0)));\r\n            this.button3.Location = new System.Drawing.Point(332, 426);\r\n            this.button3.Name = \"button3\";\r\n            this.button3.Size = new System.Drawing.Size(177, 54);\r\n            this.button3.TabIndex = 2;\r\n            this.button3.UseVisualStyleBackColor = false;\r\n            this.button3.Click += new System.EventHandler(this.button3_Click);\r\n            // \r\n            // Form1\r\n            // \r\n            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);\r\n            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;\r\n            this.BackColor = System.Drawing.SystemColors.Control;\r\n            this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject(\"$this.BackgroundImage\")));\r\n            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;\r\n            this.ClientSize = new System.Drawing.Size(843, 518);\r\n            this.Controls.Add(this.button3);\r\n            this.Controls.Add(this.button2);\r\n            this.Controls.Add(this.button1);\r\n            this.DoubleBuffered = true;\r\n            this.Icon = ((System.Drawing.Icon) (resources.GetObject(\"$this.Icon\")));\r\n            this.Location = new System.Drawing.Point(15, 15);\r\n            this.Name = \"Form1\";\r\n            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;\r\n            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);\r\n            this.ResumeLayout(false);\r\n        }\r\n\r\n        private System.Windows.Forms.Button button1;\r\n        private System.Windows.Forms.Button button2;\r\n        private System.Windows.Forms.Button button3;\r\n\r\n        #endregion\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- Proyecto Arkanoid/Form1.Designer.cs	(revision 26aeec9de8396fd53a519631bcb90981fc0481b9)
++++ Proyecto Arkanoid/Form1.Designer.cs	(date 1592790094156)
+@@ -29,8 +29,7 @@
+         /// </summary>
+         private void InitializeComponent()
+         {
+-            System.ComponentModel.ComponentResourceManager resources =
+-                new System.ComponentModel.ComponentResourceManager(typeof(Form1));
++            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+             this.button1 = new System.Windows.Forms.Button();
+             this.button2 = new System.Windows.Forms.Button();
+             this.button3 = new System.Windows.Forms.Button();
+@@ -40,11 +39,10 @@
+             // 
+             this.button1.BackColor = System.Drawing.Color.Transparent;
+             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+-            this.button1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular,
+-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+-            this.button1.Location = new System.Drawing.Point(332, 258);
++            this.button1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
++            this.button1.Location = new System.Drawing.Point(285, 224);
+             this.button1.Name = "button1";
+-            this.button1.Size = new System.Drawing.Size(177, 55);
++            this.button1.Size = new System.Drawing.Size(152, 48);
+             this.button1.TabIndex = 0;
+             this.button1.UseVisualStyleBackColor = false;
+             this.button1.Click += new System.EventHandler(this.button1_Click);
+@@ -53,11 +51,10 @@
+             // 
+             this.button2.BackColor = System.Drawing.Color.Transparent;
+             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+-            this.button2.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular,
+-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+-            this.button2.Location = new System.Drawing.Point(332, 342);
++            this.button2.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
++            this.button2.Location = new System.Drawing.Point(285, 296);
+             this.button2.Name = "button2";
+-            this.button2.Size = new System.Drawing.Size(177, 55);
++            this.button2.Size = new System.Drawing.Size(152, 48);
+             this.button2.TabIndex = 1;
+             this.button2.UseVisualStyleBackColor = false;
+             this.button2.Click += new System.EventHandler(this.button2_Click);
+@@ -66,23 +63,22 @@
+             // 
+             this.button3.BackColor = System.Drawing.Color.Transparent;
+             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+-            this.button3.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular,
+-                System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+-            this.button3.Location = new System.Drawing.Point(332, 426);
++            this.button3.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
++            this.button3.Location = new System.Drawing.Point(285, 369);
+             this.button3.Name = "button3";
+-            this.button3.Size = new System.Drawing.Size(177, 54);
++            this.button3.Size = new System.Drawing.Size(152, 47);
+             this.button3.TabIndex = 2;
+             this.button3.UseVisualStyleBackColor = false;
+             this.button3.Click += new System.EventHandler(this.button3_Click);
+             // 
+             // Form1
+             // 
+-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
++            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+             this.BackColor = System.Drawing.SystemColors.Control;
+             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
+             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+-            this.ClientSize = new System.Drawing.Size(843, 518);
++            this.ClientSize = new System.Drawing.Size(723, 449);
+             this.Controls.Add(this.button3);
+             this.Controls.Add(this.button2);
+             this.Controls.Add(this.button1);

@@ -31,8 +31,7 @@ namespace Proyecto_Arkanoid
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources =
-                new System.ComponentModel.ComponentResourceManager(typeof(Proyecto_Arkanoid.Playing));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proyecto_Arkanoid.Playing));
             this.game1 = new Proyecto_Arkanoid.Game();
             this.SuspendLayout();
             this.game1.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("game1.BackgroundImage")));

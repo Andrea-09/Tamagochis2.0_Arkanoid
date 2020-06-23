@@ -31,8 +31,7 @@ namespace Proyecto_Arkanoid
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources =
-                new System.ComponentModel.ComponentResourceManager(typeof(Top10));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Top10));
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
@@ -44,9 +43,9 @@ namespace Proyecto_Arkanoid
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Showcard Gothic", 24F);
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(20, 753);
+            this.label9.Location = new System.Drawing.Point(17, 653);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(192, 42);
+            this.label9.Size = new System.Drawing.Size(165, 36);
             this.label9.TabIndex = 8;
             this.label9.Text = "Jugador";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -56,9 +55,9 @@ namespace Proyecto_Arkanoid
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Showcard Gothic", 24F);
             this.label10.ForeColor = System.Drawing.Color.White;
-            this.label10.Location = new System.Drawing.Point(20, 819);
+            this.label10.Location = new System.Drawing.Point(17, 710);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(192, 42);
+            this.label10.Size = new System.Drawing.Size(165, 36);
             this.label10.TabIndex = 9;
             this.label10.Text = "Jugador";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -68,9 +67,9 @@ namespace Proyecto_Arkanoid
             this.label19.BackColor = System.Drawing.Color.Transparent;
             this.label19.Font = new System.Drawing.Font("Showcard Gothic", 24F);
             this.label19.ForeColor = System.Drawing.Color.White;
-            this.label19.Location = new System.Drawing.Point(314, 753);
+            this.label19.Location = new System.Drawing.Point(269, 653);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(87, 42);
+            this.label19.Size = new System.Drawing.Size(75, 36);
             this.label19.TabIndex = 18;
             this.label19.Text = "0";
             this.label19.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -80,19 +79,19 @@ namespace Proyecto_Arkanoid
             this.label20.BackColor = System.Drawing.Color.Transparent;
             this.label20.Font = new System.Drawing.Font("Showcard Gothic", 24F);
             this.label20.ForeColor = System.Drawing.Color.White;
-            this.label20.Location = new System.Drawing.Point(314, 819);
+            this.label20.Location = new System.Drawing.Point(269, 710);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(87, 42);
+            this.label20.Size = new System.Drawing.Size(75, 36);
             this.label20.TabIndex = 19;
             this.label20.Text = "0";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Top10
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(484, 749);
+            this.ClientSize = new System.Drawing.Size(415, 649);
             this.Controls.Add(this.label20);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label10);

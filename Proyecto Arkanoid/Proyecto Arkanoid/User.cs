@@ -35,7 +35,6 @@ namespace Proyecto_Arkanoid
                 //si no se ingresa ningun nickname
                 else if (name.Trim().Length == 0)
                     throw new EmptyNicknameException("Ingrese un nickname para empezar el juego");
-
                 else if (name.Equals(GameData.nickName))
                     throw new ExistingNicknameException("Este nombre ya está registrado");
 

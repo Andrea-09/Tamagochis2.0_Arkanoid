@@ -121,7 +121,6 @@
     <Compile Include="Top10.Designer.cs">
       <DependentUpon>Top10.cs</DependentUpon>
     </Compile>
-    <Compile Include="Top10Incomplete.cs" />
     <Compile Include="User.cs">
       <SubType>Form</SubType>
     </Compile>
