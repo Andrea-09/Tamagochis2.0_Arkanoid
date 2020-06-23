@@ -16,7 +16,7 @@ Para iniciar el juego debes ingresar en el botón de jugar. Al ingresar se te pe
 
 * ¿Cómo salir del juego?
 
-Para finalizar el juego tienes tres opciones: puedes terminar el juego si así lo deseas y acto seguido estarás en el menú principal. Si no tiene deseos de teminar, puedes perder a propósito, de esta manera el juego terminará y volveras al menú principal. O puedes darle click en el botón de "x" que se encunetra en la parte superior derecha de la ventana para salir y volver al menú principal.
+Para finalizar el juego tienes tres opciones: puedes terminar el juego si así lo deseas y acto seguido estarás en el menú principal. Si no tiene deseos de terminar, puedes perder a propósito, de esta manera el juego terminará y volverás al menú principal. O puedes darle click en el botón de "x" que se encuentra en la parte superior derecha de la ventana para salir y volver al menú principal.
 
 * ¿Qué pasa si encuentro un error?
 
@@ -28,7 +28,7 @@ Puedes acceder al puntaje dando click al botón en el menú principal que dice "
 
 * Mi nombre aparece en la lista de Top Jugadores, ¿qué significa esto?
 
-Significa que tu puntaje está dentro de los diez mejores de todo el juego, ¡felicidades! ¡Haz logrado un puntaje digno de reconocer!
+Significa que tu puntaje está dentro de los diez mejores de todo el juego, ¡felicidades! ¡Has logrado un puntaje digno de reconocer!
 
 * Si pierdo el juego, ¿mi puntaje aparecerá en la lista de puntajes?
 
